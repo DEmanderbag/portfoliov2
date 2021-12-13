@@ -1,0 +1,39 @@
+.main {
+  padding: var(--size-11) var(--size-4);
+  color: #ecedee;
+  max-width: 31.25rem;
+  margin: 0 auto;
+  height: 100vh;
+  p {
+    color: hsl(174 90% 40.7%);
+    font-weight: 700;
+    font-size: 0.9375rem;
+    margin-bottom: var(--size-1);
+    line-height: 1;
+  }
+  h1 {
+    font-size: 1.6875rem;
+    letter-spacing: -0.031em;
+    text-indent: -0.005em;
+    line-height: 1.2;
+    margin-bottom: var(--size-3);
+  }
+}
+.linkGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--size-3);
+}
+.card {
+  padding: var(--size-3);
+  line-height: 1;
+  border-radius: var(--radius-1);
+  position: relative;
+  background-color: rgb(32, 36, 37);
+  .icon {
+    margin-bottom: var(--size-3);
+  }
+  .platform {
+    margin-bottom: 0.625rem;
+  }
+}

@@ -1,0 +1,11 @@
+@import "reset";
+@import "variables";
+@import "typography";
+
+
+.test {
+  background-image: var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
