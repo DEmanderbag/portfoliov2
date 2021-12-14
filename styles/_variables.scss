@@ -8,10 +8,16 @@
   --color-6: #e6f0f2;
   --color-7: #f2eee6;
 
-  // Gradients 
-  --gradient: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+  // Gradients
+  --gradient: linear-gradient(
+    108deg,
+    #b16cea 8%,
+    #ff5e69 40%,
+    #ff8a56 77%,
+    #ffa84b 91%
+  );
 
-  // Spaces 
+  // Spaces
   --space-1: 96px;
   --space-2: 150px;
   --space-3: 220px;
@@ -29,13 +35,11 @@
   --size-9: 4rem;
   --size-10: 4.5rem;
   --size-11: 5rem;
-  
+
   // Border radius
   --radius-1: 8px;
 
-
   // Font
-
 }
 
 // About me grid values

@@ -1,7 +1,8 @@
 @import "reset";
 @import "variables";
 @import "typography";
-
+@import "breakpoints";
+@import "grid";
 
 .test {
   background-image: var(--gradient);
