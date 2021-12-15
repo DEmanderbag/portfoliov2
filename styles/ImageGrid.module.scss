@@ -3,7 +3,7 @@
 .ImageGrid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 1px;
+  gap: 4px;
   @include respond-above(tablet) {
     grid-template-columns: repeat(12, 1fr);
     gap: var(--size-2);
