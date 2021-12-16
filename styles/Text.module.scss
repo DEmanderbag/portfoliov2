@@ -1,0 +1,21 @@
+@import "../styles/breakpoints";
+
+.textBlock {
+  width: 100%;
+  padding: 0 var(--size-4);
+  color: var(--color-2-text);
+  .title {
+    margin-bottom: var(--size-2);
+  }
+  p {
+    margin-bottom: var(--size-2);
+  }
+  @include respond-above(tablet) {
+    width: 92%;
+    margin: 0 auto;
+  }
+  @include respond-above(laptop) {
+    max-width: 42rem;
+    padding: 0;
+  }
+}
