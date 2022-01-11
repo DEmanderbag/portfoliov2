@@ -59,10 +59,10 @@ export default function Home() {
         <Map map={"zagreb"} />
         <Text />
         <ImageGrid data={data1} />
-        {/* <Map map={"zadar"} /> */}
-        {/* <Map map={"split"} /> */}
-        {/* <Map map={"dubrovnik"} /> */}
-        {/* <Map map={"fulltrip"} /> */}
+        <Map map={"zadar"} />
+        <Map map={"split"} />
+        <Map map={"dubrovnik"} />
+        <Map map={"fulltrip"} />
         <ReviewCard />
         <Text />
         <ImageGrid data={data2} />
