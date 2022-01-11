@@ -1,0 +1,47 @@
+@import "../styles/breakpoints";
+
+.poster {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--size-5);
+  padding: var(--size-4);
+  @include respond-above(tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @include respond-above(laptop) {
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  &Card {
+    width: 100%;
+    height: 100%;
+    height: 480px;
+    background-color: var(--color-2-bg);
+    padding: 0 var(--size-2);
+    a {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      padding: var(--size-4);
+    }
+    .title {
+      text-transform: uppercase;
+      font-size: 56px;
+      line-height: 0.9;
+      margin-bottom: var(--size-3);
+      width: 100%;
+      @include respond-above(tablet) {
+        font-size: 48px;
+      }
+    }
+    .info {
+      width: 100%;
+      font-size: 18px;
+    }
+  }
+}

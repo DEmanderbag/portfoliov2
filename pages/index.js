@@ -1,49 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
 import Footer from "../components/Footer";
-import ImageGrid from "../components/ImageGrid";
-import Map from "../components/Map";
-import ReviewCard from "../components/ReviewCard";
-import Text from "../components/Text";
 import styles from "../styles/Home.module.scss";
 
-const data1 = [
-  {
-    image: "/copyright-paulstamatiou_com-DSC6240-1000.webp",
-    className: "m-span-6 full",
-    id: 1,
-  },
-  {
-    image: "/copyright-paulstamatiou_com-DSC6240-1000.webp",
-    className: "m-span-3 span-6",
-    id: 2,
-  },
-  {
-    image: "/copyright-paulstamatiou_com-DSC6240-1000.webp",
-    className: "m-span-3 span-6",
-    id: 3,
-  },
-  {
-    image: "/copyright-paulstamatiou_com-DSC6240-1000.webp",
-    className: "m-span-3 full",
-    id: 4,
-  },
-];
+import Poster from "../components/Poster";
 
-const data2 = [
-  {
-    image: "/copyright-paulstamatiou_com-DSC6275-2500.webp",
-    className: "m-span-3 span-4",
-  },
-  {
-    image: "/copyright-paulstamatiou_com-DSC6275-2500.webp",
-    className: "m-span-3 span-4",
-  },
-  {
-    image: "/copyright-paulstamatiou_com-DSC6275-2500.webp",
-    className: "m-span-6 span-4",
-  },
-];
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -55,18 +15,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1>Hello world</h1>
-        <Text />
-        <Map map={"zagreb"} />
-        <Text />
-        <ImageGrid data={data1} />
-        <Map map={"zadar"} />
-        <Map map={"split"} />
-        <Map map={"dubrovnik"} />
-        <Map map={"fulltrip"} />
-        <ReviewCard />
-        <Text />
-        <ImageGrid data={data2} />
-        <Text />
+        <Poster />
       </main>
       <Footer />
     </div>
