@@ -3,6 +3,8 @@ import Footer from "../components/Footer";
 import styles from "../styles/Home.module.scss";
 
 import Poster from "../components/Poster";
+import Project from "../components/Project";
+import Project2 from "../components/Project2";
 
 export default function Home() {
   return (
@@ -16,8 +18,16 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Hello world</h1>
         <Poster />
+        <Project />
+        <div className="layoutTest">
+          <Project />
+        </div>
+        <Project2 />
+        <div className="layoutTest">
+          <Project2 />
+        </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
