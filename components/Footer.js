@@ -4,7 +4,7 @@ const footerData = [
   {
     question: "Ready to make something kickass?",
     action: "Let's get on a call.",
-    name: "Portolfio Creator",
+    name: "Dusan Milosevic",
     email: "dusan-milosevic@outlook.com",
     links: [
       {
@@ -53,14 +53,11 @@ const Footer = () => {
         <div className={styles.wrapper} key={value}>
           <div className={styles.message}>
             <h2>{value.question}</h2>
-            <h3 className="test">{value.action}</h3>
+            <h3>{value.action}</h3>
           </div>
           <div className={styles.group}>
             <div className={styles.contact}>
-              <p>
-                {value.name}
-                <span className="test">.</span>
-              </p>
+              <p>{value.name}</p>
               <a href={`mailto:${value.email}`}>{value.email}</a>
             </div>
             <ul className={styles.links}>

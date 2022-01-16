@@ -47,7 +47,7 @@ export default function Home() {
         <Project projectData={projectData} />
         <About />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

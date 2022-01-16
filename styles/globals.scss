@@ -3,10 +3,3 @@
 @import "typography";
 @import "breakpoints";
 @import "grid";
-
-.test {
-  background-image: var(--gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
