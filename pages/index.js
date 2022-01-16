@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.scss";
 import Footer from "../components/Footer";
 import Poster from "../components/Poster";
 import Project from "../components/Project";
+import About from "../components/About";
 
 const projectData = [
   {
@@ -44,6 +45,7 @@ export default function Home() {
         <h1>Hello world</h1>
         <Poster />
         <Project projectData={projectData} />
+        <About />
       </main>
       {/* <Footer /> */}
     </div>
