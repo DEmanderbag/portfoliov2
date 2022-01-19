@@ -3,3 +3,7 @@
 @import "typography";
 @import "breakpoints";
 @import "grid";
+
+.p-4 {
+  padding: var(--size-4);
+}

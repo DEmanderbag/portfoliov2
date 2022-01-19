@@ -1,4 +1,4 @@
-import styles from "../styles/Project.module.scss";
+import styles from "../styles/components/ProjectCard.module.scss";
 import Image from "next/image";
 
 const Project = ({ projectData }) => {

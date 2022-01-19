@@ -1,4 +1,4 @@
-import styles from "../styles/Poster.module.scss";
+import styles from "../styles/components/Poster.module.scss";
 import Link from "next/link";
 
 const posterData = [

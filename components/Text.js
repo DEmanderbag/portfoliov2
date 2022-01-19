@@ -1,4 +1,4 @@
-import styles from "../styles/Text.module.scss";
+import styles from "../styles/components/Text.module.scss";
 
 const data = [
   {

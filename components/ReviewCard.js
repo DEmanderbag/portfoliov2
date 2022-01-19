@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/ReviewCard.module.scss";
+import styles from "../styles/components/ReviewCard.module.scss";
 
 const ReviewCard = () => {
   return (
