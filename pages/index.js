@@ -16,7 +16,7 @@ const projectData = [
     tags: ["User Research", "PWA", "Web", "UX & UI Design", "Menu", "QR code"],
     coverPhoto: "ilustration.jpg",
     background: "#e6f2ee",
-    tagsBackground: "rgba(46, 77, 66, 0.1);",
+    tagsBackground: "rgba(46, 77, 66, 0.1)",
   },
   {
     path: "project",
