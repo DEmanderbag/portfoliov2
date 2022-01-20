@@ -5,8 +5,8 @@ const posterData = [
   {
     path: "blog",
     linkText: "Experience",
-    title: "Things to do on your trip",
-    info: "Belajar Ul Design dari dasar",
+    title: "Playground",
+    info: "Place where I play and recreate the design I find online",
     image:
       "https://images.unsplash.com/photo-1511135570219-bbad9a02f103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
   },
