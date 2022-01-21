@@ -4,6 +4,9 @@
 @import "breakpoints";
 @import "grid";
 
-.p-4 {
-  padding: var(--size-4);
+@media (max-width: 35rem) {
+  .overflowControl {
+    overflow: hidden;
+    position: fixed;
+  }
 }
