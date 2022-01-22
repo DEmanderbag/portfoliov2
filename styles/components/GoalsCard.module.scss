@@ -4,10 +4,11 @@
   gap: var(--size-4);
   padding-top: var(--space-1);
   padding-bottom: var(--space-1);
-  h1 {
+  .intro {
+    margin-bottom: var(--size-2);
     grid-column: 1 / -1;
+    max-width: 55ch;
     line-height: 1;
-    max-width: 40ch;
   }
 }
 .card {

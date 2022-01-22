@@ -53,10 +53,13 @@ const goalsData = [
 export default function Goals() {
   return (
     <section className={`globalWrapper ${styles.grid}`}>
-      <h1 className="h4">
-        This is the list for my goals of this year, list will be upaded as
-        I&apos;m checking the boxes
-      </h1>
+      <div className={styles.intro}>
+        <h1>Goals 2022</h1>
+        <p>
+          This is the list for my goals of this year, list will be upaded as
+          I&apos;m checking the boxes
+        </p>
+      </div>
       {goalsData.map((goal) => (
         <div key={goal.label} className={styles.card}>
           <div
