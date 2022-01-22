@@ -20,3 +20,17 @@
     padding-right: 0;
   }
 }
+
+// Blog Grid class, c = column, r = row
+@include respond-above(tablet) {
+  .c2 {
+    grid-column: span 2;
+  }
+  .r2 {
+    grid-row: span 2;
+  }
+  .cr2 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+}

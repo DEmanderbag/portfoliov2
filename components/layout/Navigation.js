@@ -16,8 +16,8 @@ const navigationData = [
     path: "/goals",
   },
   {
-    link: "History",
-    path: "/history",
+    link: "Blog",
+    path: "/blog",
   },
 ];
 

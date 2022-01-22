@@ -1,0 +1,42 @@
+@import "../../styles/breakpoints";
+
+.wrapper {
+  padding-top: var(--space-1);
+  padding-bottom: var(--space-1);
+  min-height: 100%;
+
+  .intro {
+    margin-bottom: var(--size-5);
+    h1 {
+      line-height: 1;
+      max-width: 40ch;
+    }
+  }
+}
+
+.blogGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--size-4);
+  .article {
+    min-height: 350px;
+  }
+  @include respond-above(tablet) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px 300px;
+    .article {
+      min-height: auto;
+    }
+  }
+}
+.card {
+  border-radius: var(--radius-3);
+  color: #f8f8f8;
+  padding: var(--size-4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
