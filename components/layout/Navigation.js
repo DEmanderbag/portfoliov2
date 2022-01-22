@@ -12,8 +12,8 @@ const navigationData = [
     path: "/about",
   },
   {
-    link: "Gallery",
-    path: "/gallery",
+    link: "Goals 2022",
+    path: "/goals",
   },
   {
     link: "History",
@@ -33,7 +33,7 @@ const Navigation = () => {
   }, [isOpen]);
 
   return (
-    <header className={styles.header}>
+    <header className={`globalWrapper ${styles.header}`}>
       <p className={styles.logo}>Dusan</p>
       <button
         onClick={toggle}

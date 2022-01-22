@@ -2,7 +2,7 @@
 import styles from "../styles/About.module.scss";
 const About = () => {
   return (
-    <section className={styles.about}>
+    <section className={`globalWrapper ${styles.about}`}>
       <div className={styles.aboutText}>
         <div>
           <p className={styles.position}>Frontend developer</p>

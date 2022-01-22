@@ -10,3 +10,13 @@
     position: fixed;
   }
 }
+.globalWrapper {
+  padding-left: var(--size-4);
+  padding-right: var(--size-4);
+  max-width: 1140px;
+  margin: 0 auto;
+  @include respond-above(max) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

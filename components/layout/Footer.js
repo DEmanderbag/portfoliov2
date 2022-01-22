@@ -1,4 +1,4 @@
-import styles from "../styles/Footer.module.scss";
+import styles from "../../styles/layout/Footer.module.scss";
 
 const footerData = [
   {
@@ -21,7 +21,7 @@ const footerData = [
       },
       {
         name: "Projects",
-        path: "/projects",
+        path: "/project",
       },
       {
         name: "Contact",
@@ -41,7 +41,7 @@ const footerData = [
       },
       {
         name: "Goals 2022",
-        path: "/links",
+        path: "/goals",
       },
     ],
   },

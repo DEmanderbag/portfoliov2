@@ -30,7 +30,7 @@ const posterData = [
 
 const Poster = () => {
   return (
-    <section className={styles.poster}>
+    <section className={`globalWrapper ${styles.poster}`}>
       {posterData.map((poster) => (
         <article
           key={poster.path}

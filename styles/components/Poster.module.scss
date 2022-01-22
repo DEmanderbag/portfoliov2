@@ -4,15 +4,14 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--size-4);
-  padding: var(--size-4);
+  padding-top: var(--size-4);
+  padding-bottom: var(--size-4);
   @include respond-above(tablet) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   @include respond-above(laptop) {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: var(--size-3);
-    max-width: 1140px;
-    margin: 0 auto;
   }
   &Card {
     width: 100%;
