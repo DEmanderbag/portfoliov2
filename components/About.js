@@ -5,13 +5,12 @@ const About = () => {
     <section className={`globalWrapper ${styles.about}`}>
       <div className={styles.aboutText}>
         <div>
-          <p className={styles.position}>Frontend developer</p>
-          <h2>Thats me!</h2>
+          <h2>Hi, I&apos;m Dusan!</h2>
         </div>
         <p>
-          Over the past 12 years, Ive worked with a diverse range of clients,
-          from startups to Fortune 500 companies.&nbsp;I love crafting
-          interfaces that delight users and help businesses grow.
+          I&apos;m a Frontend developer working in the medical field and
+          currently living in Antwerp Belgium. My development stack is focused
+          on performance and accessibility, while using latest technology.
         </p>
       </div>
       <div className={styles.grid}>
