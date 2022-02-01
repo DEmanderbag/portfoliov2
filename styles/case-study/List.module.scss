@@ -1,0 +1,23 @@
+@import "../breakpoints";
+
+.list {
+  &Grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: var(--size-7);
+    padding-bottom: var(--size-7);
+    @include respond-above(tablet) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @include respond-above(laptop) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  &Wrapper {
+    margin-bottom: var(--size-7);
+  }
+  &Title {
+    font-weight: 600;
+    margin-bottom: var(--size-2);
+  }
+}

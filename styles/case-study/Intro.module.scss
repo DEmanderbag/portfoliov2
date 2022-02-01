@@ -1,0 +1,41 @@
+@import "../breakpoints";
+
+.hero {
+  padding-top: var(--space-1);
+  padding-bottom: var(--size-4);
+  line-height: 1;
+  &Sphere {
+    font-size: 26px;
+    margin-bottom: var(--size-3);
+  }
+  &Description {
+    margin-bottom: var(--size-2);
+    max-width: 65ch;
+  }
+  &Wrapper {
+    margin-bottom: var(--size-5);
+  }
+  &ImageWrapper {
+    @include respond-above(tablet) {
+      padding-left: var(--size-4);
+      padding-right: var(--size-4);
+      max-width: 1140px;
+      margin: 0 auto;
+    }
+    @include respond-above(max) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  &Image {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    @include respond-above(tablet) {
+      height: 600px;
+    }
+  }
+  &Link {
+    border-bottom: 2px solid rgb(229, 229, 229, 0.9);
+  }
+}
