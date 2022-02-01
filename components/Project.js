@@ -39,7 +39,7 @@ const Project = ({ projectData }) => {
                   placeholder="blur"
                   blurDataURL={`/${project.coverPhoto}`}
                   f
-                  objectFit="contain"
+                  objectFit="cover"
                 />
               </div>
             </a>
