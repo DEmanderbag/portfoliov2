@@ -11,7 +11,7 @@ const posterData = [
       "https://images.unsplash.com/photo-1511135570219-bbad9a02f103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
   },
   {
-    path: "blog",
+    path: "bookmarks",
     linkText: "Find more",
     title: `Bookmarks`,
     info: "Belajar Ul Design dari dasar",

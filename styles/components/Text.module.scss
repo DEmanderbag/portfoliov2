@@ -13,9 +13,9 @@
   @include respond-above(tablet) {
     width: 92%;
     margin: 0 auto;
+    padding: var(--space-2) 0;
   }
   @include respond-above(laptop) {
     max-width: 42rem;
-    padding: 0;
   }
 }

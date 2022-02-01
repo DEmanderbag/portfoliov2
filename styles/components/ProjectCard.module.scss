@@ -28,8 +28,15 @@
       grid-row: 4 / 6;
     }
   }
+  @include respond-above(max) {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .project {
     padding-top: var(--size-10);
+    @include respond-above(tablet) {
+      border-radius: var(--radius-3);
+    }
     .wrapper {
       padding-left: var(--size-4);
       padding-right: var(--size-4);

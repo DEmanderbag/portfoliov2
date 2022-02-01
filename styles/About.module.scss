@@ -18,7 +18,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 150px 150px 150px 150px 150px;
-  gap: 1rem;
+  gap: var(--size-3);
   grid-auto-flow: column;
   @include respond-above(tablet) {
     grid-template-columns: 1fr 1.5fr 1fr;
