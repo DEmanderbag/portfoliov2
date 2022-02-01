@@ -23,21 +23,21 @@ const footerData = [
         name: "Projects",
         path: "/project",
       },
-      {
-        name: "Contact",
-        path: "/contact",
-      },
-      {
-        name: "Hardware I use",
-        path: "/links",
-      },
-      {
-        name: "Software I use",
-        path: "/about",
-      },
+      // {
+      //   name: "Contact",
+      //   path: "/contact",
+      // },
+      // {
+      //   name: "Hardware I use",
+      //   path: "/links",
+      // },
+      // {
+      //   name: "Software I use",
+      //   path: "/about",
+      // },
       {
         name: "Bookmarks",
-        path: "/links",
+        path: "/bookmarks",
       },
       {
         name: "Goals 2022",

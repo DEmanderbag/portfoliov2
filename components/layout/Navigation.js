@@ -4,20 +4,28 @@ import { useState, useEffect } from "react";
 
 const navigationData = [
   {
-    link: "Home",
+    linkLabel: "Home",
     path: "/",
   },
   {
-    link: "About",
+    linkLabel: "About",
     path: "/about",
   },
   {
-    link: "Goals 2022",
+    linkLabel: "Work",
+    path: "/work",
+  },
+  {
+    linkLabel: "Goals 2022",
     path: "/goals",
   },
   {
-    link: "Blog",
+    linkLabel: "Blog",
     path: "/blog",
+  },
+  {
+    linkLabel: "Bookmarks",
+    path: "/bookmarks",
   },
 ];
 
@@ -34,7 +42,11 @@ const Navigation = () => {
 
   return (
     <header className={`globalWrapper ${styles.header}`}>
-      <p className={styles.logo}>Dusan</p>
+      <Link href="/">
+        <a className={styles.logo}>
+          Dusan Milosevic <span>Developer</span>
+        </a>
+      </Link>
       <button
         onClick={toggle}
         aria-controls="navigation"
@@ -53,9 +65,9 @@ const Navigation = () => {
           className={`${styles.nav} ${isOpen ? styles.show : ""}`}
         >
           {navigationData.map((item) => (
-            <li key={item.link}>
+            <li key={item.linkLabel}>
               <Link href={item.path}>
-                <a onClick={toggle}>{item.link}</a>
+                <a onClick={toggle}>{item.linkLabel}</a>
               </Link>
             </li>
           ))}

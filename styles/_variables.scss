@@ -11,15 +11,6 @@
   --color-7: #f2eee6;
   --color-8: hsl(174 90% 40.7%);
 
-  // Gradients
-  --gradient: linear-gradient(
-    108deg,
-    #b16cea 8%,
-    #ff5e69 40%,
-    #ff8a56 77%,
-    #ffa84b 91%
-  );
-
   // Spaces
   --space-1: 96px;
   --space-2: 150px;
@@ -43,9 +34,8 @@
   --radius-1: 4px;
   --radius-2: 8px;
   --radius-3: 12px;
-  // Font
-}
 
-// About me grid values
-// grid-template-columns: 1fr 1.5fr 1fr;
-// grid-template-rows: auto auto;
+  // Bookmarks grid
+  --space-md: calc(var(--size-3) * 2);
+  --gap: var(--size-4);
+}

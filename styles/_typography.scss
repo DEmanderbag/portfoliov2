@@ -17,14 +17,12 @@ h1,
 .h1 {
   font-size: 48px;
   line-height: 1.0834933333;
-  // font-weight: 600;
   letter-spacing: -0.003em;
 }
 h2,
 .h2 {
   font-size: 40px;
   line-height: 1.1;
-  // font-weight: 600;
   letter-spacing: 0em;
 }
 
@@ -32,7 +30,6 @@ h3,
 .h3 {
   font-size: 32px;
   line-height: 1.125;
-  // font-weight: 600;
   letter-spacing: 0.004em;
 }
 
@@ -40,14 +37,13 @@ h4,
 .h4 {
   font-size: 26px;
   line-height: 1.2105263158;
-  // font-weight: 600;
   letter-spacing: 0.012em;
 }
 
 p,
-li {
+li,
+a {
   font-size: 17px;
   line-height: 1.4705882353;
-  // font-weight: 600;
   letter-spacing: -0.022em;
 }
