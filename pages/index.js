@@ -7,7 +7,7 @@ import Text from "../components/Text";
 
 const projectData = [
   {
-    path: "work/meno",
+    path: "/work/meno",
     linkText: "Experience",
     name: "Meno",
     date: "November 2021",
@@ -19,7 +19,7 @@ const projectData = [
     tagsBackground: "rgba(187, 131, 47, .1)",
   },
   {
-    path: "project",
+    path: "/project",
     linkText: "Experience",
     name: "Sparkasse",
     date: "January 2022",
@@ -31,7 +31,7 @@ const projectData = [
     tagsBackground: "rgba(46, 62, 77, 0.1)",
   },
   {
-    path: "project",
+    path: "/project",
     linkText: "Experience",
     name: "ReachNow",
     date: "Agustus 2104s",
@@ -50,7 +50,7 @@ const projectData = [
     tagsBackground: "rgba(46, 62, 77, 0.1)",
   },
   {
-    path: "project",
+    path: "/project",
     linkText: "Experience",
     name: "Wando",
     date: "Agustus 2104s",

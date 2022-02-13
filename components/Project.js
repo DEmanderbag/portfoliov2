@@ -38,7 +38,6 @@ const Project = ({ projectData }) => {
                   layout="fill"
                   placeholder="blur"
                   blurDataURL={`/${project.coverPhoto}`}
-                  f
                   objectFit="cover"
                 />
               </div>
