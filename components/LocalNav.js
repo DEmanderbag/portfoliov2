@@ -1,6 +1,7 @@
 import styles from "../styles/components/LocalNav.module.scss";
 import Link from "next/link";
 import Image from "next/image";
+
 const LocalNav = () => {
   return (
     <nav className={styles.localNav}>

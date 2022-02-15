@@ -16,10 +16,6 @@ const navigationData = [
     path: "/work",
   },
   {
-    linkLabel: "Goals 2022",
-    path: "/goals",
-  },
-  {
     linkLabel: "Blog",
     path: "/blog",
   },
