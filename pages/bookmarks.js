@@ -1,87 +1,43 @@
 import styles from "../styles/bookmarks/Bookmarks.module.scss";
+import Image from "next/image";
+import FeatureCard from "../components/booksmarks/FeatureCard";
+import BookmarkCard from "../components/booksmarks/BookmarkCard";
 
 const devResources = [
   {
-    title: "Interneting is hard",
-    subtitle: "Friendly web development tutorials for complete beginners",
+    title: "HTML & CSS is hard",
+    subtitle:
+      "But it doesn’t have to be. Explore this friendly web development tutorial for complete beginners.",
     website: "https://www.internetingishard.com/",
-    shortWebsite: "internetishard.com",
-    author: "Random",
+    logo: "../public/internetIsHardLogo.svg",
+    tag: "Tutorial",
   },
   {
     title: "CSS for JS developers",
     subtitle:
-      "The all-new interactive learning experience designed to help JavaScript developers become confident with CSS.",
+      "A comprehensive interactive course designed to change your relationship with CSS. We'll learn how the language really works, and empower you to build robust user interfaces.",
     website: "https://css-for-js.dev/",
-    shortWebsite: "css-for-js.dev",
-    author: "Josh W Comeau",
-    authorLink: "https://twitter.com/JoshWComeau",
-  },
-  {
-    title: "Interneting is hard",
-    subtitle: "Friendly web development tutorials for complete beginners",
-    website: "https://www.internetingishard.com/",
-    shortWebsite: "internetishard.com",
-    author: "Random",
+    logo: "../public/cssForJsLogo.png",
+    tag: "Tutorial",
   },
   {
     title: "CSS for JS developers",
     subtitle:
-      "The all-new interactive learning experience designed to help JavaScript developers become confident with CSS.",
+      "A comprehensive interactive course designed to change your relationship with CSS. We'll learn how the language really works, and empower you to build robust user interfaces.",
     website: "https://css-for-js.dev/",
-    shortWebsite: "css-for-js.dev",
-    author: "Josh W Comeau",
-    authorLink: "https://twitter.com/JoshWComeau",
+    logo: "../public/cssForJsLogo.png",
+    tag: "Tutorial",
   },
   {
-    title: "Interneting is hard",
-    subtitle: "Friendly web development tutorials for complete beginners",
-    website: "https://www.internetingishard.com/",
-    shortWebsite: "internetishard.com",
-    author: "Random",
-  },
-  {
-    title: "CSS for JS developers",
+    title: "HTML & CSS is hard",
     subtitle:
-      "The all-new interactive learning experience designed to help JavaScript developers become confident with CSS.",
-    website: "https://css-for-js.dev/",
-    shortWebsite: "css-for-js.dev",
-    author: "Josh W Comeau",
-    authorLink: "https://twitter.com/JoshWComeau",
-  },
-  {
-    title: "Interneting is hard",
-    subtitle: "Friendly web development tutorials for complete beginners",
+      "But it doesn’t have to be. Explore this friendly web development tutorial for complete beginners.",
     website: "https://www.internetingishard.com/",
-    shortWebsite: "internetishard.com",
-    author: "Random",
-  },
-  {
-    title: "CSS for JS developers",
-    subtitle:
-      "The all-new interactive learning experience designed to help JavaScript developers become confident with CSS.",
-    website: "https://css-for-js.dev/",
-    shortWebsite: "css-for-js.dev",
-    author: "Josh W Comeau",
-    authorLink: "https://twitter.com/JoshWComeau",
-  },
-  {
-    title: "Interneting is hard",
-    subtitle: "Friendly web development tutorials for complete beginners",
-    website: "https://www.internetingishard.com/",
-    shortWebsite: "internetishard.com",
-    author: "Random",
-  },
-  {
-    title: "CSS for JS developers",
-    subtitle:
-      "The all-new interactive learning experience designed to help JavaScript developers become confident with CSS.",
-    website: "https://css-for-js.dev/",
-    shortWebsite: "css-for-js.dev",
-    author: "Josh W Comeau",
-    authorLink: "https://twitter.com/JoshWComeau",
+    logo: "../public/internetIsHardLogo.svg",
+    tag: "Tutorial",
   },
 ];
+
 export default function Bookmarks() {
   return (
     <section className={styles.wrapper}>
@@ -94,26 +50,21 @@ export default function Bookmarks() {
       </div>
 
       <div className={styles.content}>
-        <h2 className="h3">Learning resouces</h2>
-        <p>Material found bellow is just the link to these awesome resources</p>
+        <h2 className="h4">Front-end resources</h2>
         <div className={styles.gallery}>
           <div className={styles.wrap}>
-            {devResources.map((resource) => (
-              <div key={resource.title} className={styles.item}>
-                <h4>{resource.title}</h4>
-                <p>{resource.subtitle}</p>
-                <div className={styles.links}>
-                  <a href={resource.website}>
-                    <p>🌐 {resource.shortWebsite}</p>
-                  </a>
-                  <a href={resource.authorLink}>
-                    <p>By {resource.author}</p>
-                  </a>
-                </div>
-              </div>
-            ))}
+            <FeatureCard devResources={devResources} />
           </div>
         </div>
+      </div>
+      <div className={styles.grid}>
+        <div className={styles.special}>
+          <h2 className="h4">New this week</h2>
+          <p>
+            Explore the list of articles, tools, videos and online resources
+          </p>
+        </div>
+        <BookmarkCard devResources={devResources} />
       </div>
     </section>
   );

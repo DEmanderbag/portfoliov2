@@ -1,0 +1,36 @@
+.cardBasic {
+  padding: var(--size-4);
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 1px solid #f1f1f1;
+  .favicon {
+    margin-right: var(--size-3);
+    min-width: 60px;
+    max-width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    &Mask {
+      position: relative;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .tag {
+    border-radius: var(--radius-2);
+    max-width: fit-content;
+    padding: var(--size-1) var(--size-2);
+    margin-bottom: var(--size-2);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .cardContent {
+    max-width: 45ch;
+  }
+}
