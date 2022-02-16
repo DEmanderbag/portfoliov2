@@ -50,7 +50,7 @@ export default function Bookmarks() {
       </div>
 
       <div className={styles.content}>
-        <h2 className="h4">Front-end resources</h2>
+        <h2 className={`h4 ${styles.title}`}>Front-end resources</h2>
         <div className={styles.gallery}>
           <div className={styles.wrap}>
             <FeatureCard devResources={devResources} />
@@ -59,7 +59,7 @@ export default function Bookmarks() {
       </div>
       <div className={styles.grid}>
         <div className={styles.special}>
-          <h2 className="h4">New this week</h2>
+          <h2 className={`h4 ${styles.title}`}>New this week</h2>
           <p>
             Explore the list of articles, tools, videos and online resources
           </p>

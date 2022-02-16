@@ -33,7 +33,6 @@
     grid-column: 2;
   }
   h2 {
-    font-weight: 600;
     margin-top: var(--size-5);
   }
 }
@@ -41,7 +40,7 @@
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: inherit;
-  padding-top: 20px;
+  padding-top: var(--size-3);
   padding-bottom: var(--space-md);
   overflow-x: scroll;
   overscroll-behavior-x: contain;
@@ -90,4 +89,10 @@
   border-top: 1px solid white;
   border-bottom: 1px solid #f1f1f1;
   grid-column: 1 / -1;
+}
+
+.title {
+  line-height: 1;
+  margin-bottom: var(--size-2);
+  font-weight: 600;
 }

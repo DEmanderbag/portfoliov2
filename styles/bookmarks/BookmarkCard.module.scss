@@ -32,5 +32,10 @@
   }
   .cardContent {
     max-width: 45ch;
+    .title {
+      line-height: 1;
+      margin-bottom: var(--size-2);
+      font-weight: 600;
+    }
   }
 }

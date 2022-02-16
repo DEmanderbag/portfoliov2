@@ -22,7 +22,7 @@ const BookmarkCard = ({ devResources }) => {
             <p style={{ backgroundColor: `#f8f8f8` }} className={styles.tag}>
               {resource.tag}
             </p>
-            <h4>{resource.title}</h4>
+            <h4 className={styles.title}>{resource.title}</h4>
             <p>{resource.subtitle}</p>
           </div>
         </article>
