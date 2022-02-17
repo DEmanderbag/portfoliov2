@@ -9,12 +9,12 @@ const BookmarkCard = ({ devResources }) => {
           <div className={styles.favicon}>
             <div className={styles.faviconMask}>
               <Image
-                src={`/${resource.logo}`}
+                src={`${resource.logo}`}
                 alt="test image"
                 layout="responsive"
                 width={40}
                 height={40}
-                blurDataURL={`/${resource.logo}`}
+                blurDataURL={`${resource.logo}`}
               />
             </div>
           </div>

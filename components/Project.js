@@ -33,11 +33,11 @@ const Project = ({ projectData }) => {
               </div>
               <div className={styles.projectImage}>
                 <Image
-                  src={`/${project.coverPhoto}`}
+                  src={`${project.coverPhoto}`}
                   alt="test image"
                   layout="fill"
                   placeholder="blur"
-                  blurDataURL={`/${project.coverPhoto}`}
+                  blurDataURL={`${project.coverPhoto}`}
                   objectFit="cover"
                 />
               </div>

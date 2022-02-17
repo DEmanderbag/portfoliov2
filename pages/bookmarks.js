@@ -9,7 +9,7 @@ const devResources = [
     subtitle:
       "But it doesn’t have to be. Explore this friendly web development tutorial for complete beginners.",
     website: "https://www.internetingishard.com/",
-    logo: "../public/internetIsHardLogo.svg",
+    logo: "/../public/internetIsHardLogo.svg",
     tag: "Tutorial",
   },
   {
@@ -17,7 +17,7 @@ const devResources = [
     subtitle:
       "A comprehensive interactive course designed to change your relationship with CSS. We'll learn how the language really works, and empower you to build robust user interfaces.",
     website: "https://css-for-js.dev/",
-    logo: "../public/cssForJsLogo.png",
+    logo: "/../public/cssForJsLogo.png",
     tag: "Tutorial",
   },
   {
@@ -25,7 +25,7 @@ const devResources = [
     subtitle:
       "A comprehensive interactive course designed to change your relationship with CSS. We'll learn how the language really works, and empower you to build robust user interfaces.",
     website: "https://css-for-js.dev/",
-    logo: "../public/cssForJsLogo.png",
+    logo: "/../public/cssForJsLogo.png",
     tag: "Tutorial",
   },
   {
@@ -33,7 +33,7 @@ const devResources = [
     subtitle:
       "But it doesn’t have to be. Explore this friendly web development tutorial for complete beginners.",
     website: "https://www.internetingishard.com/",
-    logo: "../public/internetIsHardLogo.svg",
+    logo: "/../public/internetIsHardLogo.svg",
     tag: "Tutorial",
   },
 ];

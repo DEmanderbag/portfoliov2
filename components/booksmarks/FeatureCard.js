@@ -17,11 +17,11 @@ const FeatureCard = ({ devResources }) => {
             <p>{resource.subtitle}</p>
             <div className={styles.logoContainer}>
               <Image
-                src={`/${resource.logo}`}
+                src={`${resource.logo}`}
                 alt="test image"
                 layout="fill"
                 objectFit="contain"
-                blurDataURL={`/${resource.logo}`}
+                blurDataURL={`${resource.logo}`}
               />
             </div>
           </article>
