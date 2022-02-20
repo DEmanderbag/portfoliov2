@@ -183,7 +183,7 @@ const devResources = [
   {
     title: "WebGradients",
     subtitle:
-      "WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website. Easy copy CSS3 crossbrowser code and use it in a moment! We've also prepared a .PNG version of each gradient. As a bonus, there are packs for Sketch & Photoshop.",
+      "WebGradients is a free collection of 180 linear gradients that you can use as content backdrops in any part of your website. Easy copy CSS3 crossbrowser code and use it in a moment!",
     website: "https://webgradients.com/",
     websiteShort: "webgradients.com",
     tag: "Tools",
