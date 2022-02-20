@@ -6,7 +6,7 @@ const BookmarkCard = ({ devResources }) => {
     <>
       {devResources.map((resource) => (
         <article key={resource.title} className={styles.cardBasic}>
-          <div className={styles.favicon}>
+          {/* <div className={styles.favicon}>
             <div className={styles.faviconMask}>
               <Image
                 src={`${resource.logo}`}
@@ -17,12 +17,16 @@ const BookmarkCard = ({ devResources }) => {
                 blurDataURL={`${resource.logo}`}
               />
             </div>
-          </div>
+          </div> */}
           <div className={styles.cardContent}>
-            <p style={{ backgroundColor: `#f8f8f8` }} className={styles.tag}>
+            <p
+              style={{ backgroundColor: `${resource.tagColor}` }}
+              className={styles.tag}
+            >
               {resource.tag}
             </p>
             <h4 className={styles.title}>{resource.title}</h4>
+            <p className={styles.source}>{resource.websiteShort}</p>
             <p>{resource.subtitle}</p>
           </div>
         </article>

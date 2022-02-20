@@ -12,8 +12,9 @@ const FeatureCard = ({ devResources }) => {
           rel="noreferrer"
         >
           <article className={styles.featuredCard}>
-            <p className={styles.tag}>Tutorial</p>
+            <p className={styles.tag}>{resource.tag}</p>
             <h4 className={styles.title}>{resource.title}</h4>
+            <p className={styles.source}>{resource.websiteShort}</p>
             <p>{resource.subtitle}</p>
             <div className={styles.logoContainer}>
               <Image

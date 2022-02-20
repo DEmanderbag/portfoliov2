@@ -26,15 +26,21 @@
     border-radius: var(--radius-2);
     max-width: fit-content;
     padding: var(--size-1) var(--size-2);
-    margin-bottom: var(--size-2);
+    margin-bottom: var(--size-1);
     font-size: 14px;
     font-weight: 600;
+  }
+  .source {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: var(--size-2);
+    opacity: 70%;
   }
   .cardContent {
     max-width: 45ch;
     .title {
       line-height: 1;
-      margin-bottom: var(--size-2);
+      margin-bottom: var(--size-1);
       font-weight: 600;
     }
   }
