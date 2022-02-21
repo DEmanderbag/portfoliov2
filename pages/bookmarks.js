@@ -194,7 +194,7 @@ const devResources = [
     subtitle:
       "A collection of design tips created by Steve Schoger and Adam Wathan",
     website: "https://twitter.com/i/events/994601867987619840",
-    websiteShort: "twitter.com",
+    websiteShort: "",
     tag: "Tools",
     tagColor: "#e8e6f2",
   },
@@ -205,6 +205,125 @@ const devResources = [
     websiteShort: "shortcuts.design",
     tag: "Tools",
     tagColor: "#e8e6f2",
+  },
+  {
+    title: "99% Invisible",
+    subtitle:
+      "Design is everywhere in our lives, perhaps most importantly in the places where we've just stopped noticing. 99% Invisible is a weekly exploration of the process and power of design and architecture. This podcast is hosted by Roman mars",
+    website: "https://99percentinvisible.org/",
+    websiteShort: "99percentinvisible.org",
+    tag: "Podcast",
+    tagColor: "#ffffa7",
+  },
+  {
+    title: "Command_Line Heroes",
+    subtitle:
+      "Hear the epic true tales of how developers, programmers, hackers, geeks, and open source rebels are revolutionizing the technology landscape. An original podcast from Red Hat",
+    website: "https://www.redhat.com/en/command-line-heroes",
+    websiteShort: "redhat.com/en/command-line-heroes",
+    tag: "Podcast",
+    tagColor: "#ffffa7",
+  },
+  {
+    title: "Cortex",
+    subtitle:
+      "CGP Grey and Myke Hurley are both independent content creators. Each episode, they get together to discuss their working lives.",
+    website: "https://www.relay.fm/cortex",
+    websiteShort: "relay.fm/cortex",
+    tag: "Podcast",
+    tagColor: "#ffffa7",
+  },
+  {
+    title: "3%",
+    subtitle:
+      "In order to make something great you only need to change the existing layer by 3%. Article written by Mariano Avila a who is a product designed",
+    website: "https://mar.svbtle.com/3",
+    websiteShort: "mar.svbtle.com/3",
+    tag: "Article",
+    tagColor: "#e6f2ee",
+  },
+  {
+    title: "Kevin Powell",
+    subtitle:
+      "Helping you learn how to make the web, and make it look good while you're at it. With videos every Tuesday and Thursday, I'll be bringing you How Tos and Tutorials, as well as simple tips and tricks, with a big focus on helping people see how wonderful CSS is!",
+    website: "https://www.youtube.com/kepowob",
+    websiteShort: "youtube.com/kepowob",
+    tag: "YouTube",
+    tagColor: "#f2e6e6",
+  },
+  {
+    title: "LEMMiNO",
+    subtitle:
+      "Documentaries and list videos narrated by a 20-something Swedish guy.",
+    website: "https://www.youtube.com/c/LEMMiNO/",
+    websiteShort: "youtube.com/c/LEMMiNO",
+    tag: "YouTube",
+    tagColor: "#f2e6e6",
+  },
+  {
+    title: "Colt Steele",
+    subtitle:
+      "Colt Steele is a Developer and Bootcamp Instructor, who spent years figuring out the 'formula' to teaching technical skills in a classroom environment, I can confidently say that his online courses are without a doubt the most comprehensive ones on the market.",
+    website: "https://www.youtube.com/c/ColtSteeleCode",
+    websiteShort: "youtube.com/c/ColtSteeleCode",
+    tag: "YouTube",
+    tagColor: "#f2e6e6",
+  },
+  {
+    title: "Introduction to Git",
+    subtitle:
+      "This article goes over all the important stuff you need to know to get started using Git. You can read about the commands like git add, git commit, git branch, git checkout, and git merge!",
+    website:
+      "https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049",
+    websiteShort: "",
+    tag: "Article",
+    tagColor: "#e6f2ee",
+  },
+  {
+    title: "Introduction to GitHub",
+    subtitle:
+      "This article explains what is Github and how to get Started with it. GitHub is a hosting platform for Git repositories. You can use Git on its own without Github (and other similar platforms), but it's difficult to collaborate or share your code with. others.",
+    website:
+      "https://www.notion.so/zarkom/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7",
+    websiteShort: "",
+    tag: "Article",
+    tagColor: "#e6f2ee",
+  },
+  {
+    title: "How to Write a Git Commit Message",
+    subtitle:
+      "If you browse the log of any random Git repository, you will probably find its commit messages are more or less a mess. Commit messages matter. Here's how to write them well.",
+    website: "https://cbea.ms/git-commit/",
+    websiteShort: "cbea.ms/git-commit",
+    tag: "Article",
+    tagColor: "#e6f2ee",
+  },
+  {
+    title: "Skillthrive",
+    subtitle:
+      "Learn how to use tools like Sketch, Adobe XD, Figma, HTML, CSS, Javascript, React, Gatsby and more to build real design and web development projects.",
+    website: "https://www.youtube.com/c/Skillthrive/",
+    websiteShort: "youtube.com/c/Skillthrive",
+    tag: "YouTube",
+    tagColor: "#f2e6e6",
+  },
+  {
+    title: "Jake Wright",
+    subtitle:
+      "Jake Wright is a Cambridge Computer Science graduate, software developer, and filmmaker. He makes videos about tech, coding, cooking and travelling.",
+    website: "https://www.youtube.com/c/JakewrightNet/",
+    websiteShort: "youtube.com/c/JakewrightNet",
+    tag: "YouTube",
+    tagColor: "#f2e6e6",
+  },
+  {
+    title: "Traversy Media",
+    subtitle:
+      "Traversy Media features the best online web development and programming tutorials for all of the latest web technologies from the building blocks of HTML, CSS & JavaScript to frontend frameworks like React and Vue to backend technologies like Node.js, Python and PHP",
+    website: "https://www.youtube.com/c/TraversyMedia/",
+    websiteShort: "youtube.com/c/TraversyMedia",
+    tag: "YouTube",
+    tagColor: "#f2e6e6",
   },
 ];
 export default function Bookmarks() {
@@ -227,10 +346,11 @@ export default function Bookmarks() {
         </div>
       </div>
       <div className={styles.grid}>
-        <div className={styles.special}>
+        <div className={styles.generalBookmarksIntro}>
           <h2 className={`h4 ${styles.title}`}>New this week</h2>
           <p>
-            Explore the list of articles, Toolss, videos and online resources
+            Explore the list of articles, tools, videos, podcats and online
+            resources that I think will be useful
           </p>
         </div>
         <BookmarkCard devResources={devResources} />
