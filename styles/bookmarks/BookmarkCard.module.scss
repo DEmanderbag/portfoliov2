@@ -5,36 +5,27 @@
   margin: 0 auto;
   display: flex;
   border-bottom: 1px solid var(--color-2);
-  .favicon {
-    margin-right: var(--size-3);
-    min-width: 60px;
-    max-width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: #f9f9f9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    &Mask {
-      position: relative;
-      width: 40px;
-      height: 40px;
-    }
+  opacity: 0;
+  transform: translateY(30px);
+  &:hover {
+    background-color: var(--hover);
   }
   .tag {
     border-radius: var(--radius-2);
+    border-radius: 20px;
     max-width: fit-content;
-    padding: var(--size-1) var(--size-2);
+    padding: var(--size-1) var(--size-3);
     margin-bottom: var(--size-1);
     font-size: 14px;
     font-weight: 600;
+    color: white;
+    text-transform: capitalize;
   }
   .source {
     font-size: 14px;
     font-weight: 600;
     margin-bottom: var(--size-2);
-    opacity: 70%;
+    opacity: 75%;
   }
   .cardContent {
     max-width: 45ch;
@@ -44,4 +35,10 @@
       font-weight: 600;
     }
   }
+}
+.animated {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 700ms ease-out, opacity 700ms ease-out,
+    background-color 200ms ease-out;
 }
