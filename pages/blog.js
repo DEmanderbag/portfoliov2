@@ -9,15 +9,13 @@ const blogData = [
       "Story how I've travel and visited four different cities in Croatia",
     coverImage: "/photo.jpeg",
     blogLink: "/blog/exploring-croatia",
-    class: "cr2",
     id: "1",
   },
   {
     title: "Ski in Kopaonik",
     subtitle:
       "Story how I've travel and visited four different cities in Croatia",
-    coverImage: "/winter.jpeg",
-    class: "c2",
+    coverImage: "/kopaonik/winter.jpeg",
     blogLink: "/blog/winter-at-kopaonik",
     id: "2",
   },
@@ -27,7 +25,6 @@ const blogData = [
       "Story how I've travel and visited four different cities in Croatia",
     coverImage: "/wando.jpg",
     blogLink: "/blog/exploring-croatia",
-    class: "cr2",
     id: "3",
   },
 ];

@@ -1,0 +1,16 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--size-5);
+  &Title {
+    order: 1;
+    font-size: 38px;
+  }
+  &Text {
+    font-size: 15px;
+  }
+  .type {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}

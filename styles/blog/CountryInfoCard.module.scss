@@ -1,0 +1,25 @@
+.countryInfoCard {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 450px;
+  gap: var(--size-4);
+  background-color: var(--color-2);
+  padding: var(--size-4);
+  margin-bottom: var(--size-3);
+  border-radius: var(--radius-2);
+  .countryStats {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    p {
+      line-height: 1;
+    }
+    p:last-child {
+      font-size: 22px;
+      font-weight: 700;
+      order: -1;
+      margin-bottom: var(--size-1);
+    }
+  }
+}

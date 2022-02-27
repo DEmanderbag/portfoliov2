@@ -14,7 +14,8 @@ const ReviewCard = ({ reviewCardData }) => {
             <div className={styles.rating}>
               {reviewCardData.stars.map((star, i) => (
                 <div
-                  key={star[i]}
+                  // Fix this key value here
+                  key={star}
                   className={`${styles.star} ${
                     star === "1"
                       ? styles.full
@@ -41,7 +42,7 @@ const ReviewCard = ({ reviewCardData }) => {
             </div>
           </div>
         </div>
-        <section
+        <div
           className={
             reviewCardData.gallery.length > 2
               ? styles.imageGridThree
@@ -64,7 +65,7 @@ const ReviewCard = ({ reviewCardData }) => {
               </a>
             </figure>
           ))}
-        </section>
+        </div>
       </div>
     </article>
   );
