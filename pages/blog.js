@@ -5,24 +5,21 @@ import styles from "../styles/blog/BlogCard.module.scss";
 const blogData = [
   {
     title: "Exploring Croatia",
-    subtitle:
-      "Story how I've travel and visited four different cities in Croatia",
+    subtitle: "Four cities. Two travelers. One country.",
     coverImage: "/photo.jpeg",
     blogLink: "/blog/exploring-croatia",
     id: "1",
   },
   {
-    title: "Ski in Kopaonik",
-    subtitle:
-      "Story how I've travel and visited four different cities in Croatia",
+    title: "Kopaonik Winter Memories",
+    subtitle: "Serbia's very own Winter Wonderland. Hidden gem or overrated?",
     coverImage: "/kopaonik/winter.jpeg",
     blogLink: "/blog/winter-at-kopaonik",
     id: "2",
   },
   {
-    title: "Exploring Budapest",
-    subtitle:
-      "Story how I've travel and visited four different cities in Croatia",
+    title: "North Balkan Rhapsody",
+    subtitle: "Is it even really the Balkans?",
     coverImage: "/wando.jpg",
     blogLink: "/blog/exploring-croatia",
     id: "3",
@@ -34,8 +31,8 @@ export default function Blog() {
   return (
     <section className={`globalWrapper ${styles.wrapper}`}>
       <div className={styles.intro}>
-        <h1>Travel blog</h1>
-        <p>This is the list of contries that Ive visited</p>
+        <h1>Travelogue</h1>
+        <p>Stories from my journeys - every picture begets a few words</p>
       </div>
       <div className={styles.blogGrid}>
         {blogData.map((blog) => (

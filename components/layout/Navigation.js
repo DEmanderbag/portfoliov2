@@ -16,7 +16,7 @@ const navigationData = [
     path: "/work",
   },
   {
-    linkLabel: "Blog",
+    linkLabel: "Travelogue",
     path: "/blog",
   },
   {

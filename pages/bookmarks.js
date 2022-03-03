@@ -97,6 +97,15 @@ const devResources = [
     tagColor: "#EC5555",
   },
   {
+    title: "Parks of Croatia - visual identity",
+    subtitle:
+      "A short documentary on the topic of graphic design for nature and national parks in Croatia.",
+    website: "https://vimeo.com/200950283",
+    websiteShort: "",
+    tag: "Video",
+    tagColor: "#EC5555",
+  },
+  {
     title: "Introduction to Git",
     subtitle:
       "This article goes over all the important stuff you need to know to get started using Git. You can read about the commands like git add, git commit, git branch, git checkout, and git merge!",
@@ -109,7 +118,7 @@ const devResources = [
   {
     title: "Introduction to GitHub",
     subtitle:
-      "This article explains what is Github and how to get Started with it. GitHub is a hosting platform for Git repositories. You can use Git on its own without Github (and other similar platforms), but it's difficult to collaborate or share your code with. others.",
+      "This article explains what is Github and how to get Started with it. GitHub is a hosting platform for Git repositories. You can use Git on its own without Github (and other similar platforms), but it's difficult to collaborate or share your code with others.",
     website:
       "https://www.notion.so/zarkom/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7",
     websiteShort: "",
@@ -325,6 +334,51 @@ const devResources = [
     tag: "YouTube",
     tagColor: "#EC5555",
   },
+  {
+    title: "FLEXBOX FROGGY",
+    subtitle:
+      "Flexbox Froggy, a game where you help Froggy and friends by writing CSS code!",
+    website: "https://flexboxfroggy.com/",
+    websiteShort: "flexboxfroggy.com",
+    tag: "Games",
+    tagColor: "#367d72",
+  },
+  {
+    title: "GRID GARDEN",
+    subtitle:
+      "Grid Garden, is a game where you write CSS code to grow your carrot garden!",
+    website: "https://cssgridgarden.com/",
+    websiteShort: "cssgridgarden.com",
+    tag: "Games",
+    tagColor: "#367d72",
+  },
+  {
+    title: "Flex Box Adventure",
+    subtitle:
+      "Start a mysterious adventure and help King Arthur defeat three evil brothers using CSS Flex Box. Learn Flex Box by Playing Game. Learn Flex Box in a completely new, fun, effective and revolutionary way. By playing Flex Box coding game!",
+    website: "https://codingfantasy.com/games/flexboxadventure",
+    websiteShort: "codingfantasy.com/games/flexboxadventure",
+    tag: "Games",
+    tagColor: "#367d72",
+  },
+  {
+    title: "Grid Attack",
+    subtitle:
+      "Demons kidnapped a powerful elf to steal his power. Go on an incredibly dangerous quest and save the world using a secret weapon – CSS Grid. Learn Grid in a revolutionary new, fun, and effective way. By playing a Grid coding game!",
+    website: "https://codingfantasy.com/games/css-grid-attack",
+    websiteShort: "codingfantasy.com/games/css-grid-attack",
+    tag: "Games",
+    tagColor: "#367d72",
+  },
+  {
+    title: "yare.io",
+    subtitle:
+      "Real-Time Strategy game where you control your units by writing JavaScript code.",
+    website: "https://yare.io/",
+    websiteShort: "yare.io",
+    tag: "Games",
+    tagColor: "#367d72",
+  },
 ];
 
 export default function Bookmarks() {
@@ -348,10 +402,10 @@ export default function Bookmarks() {
       </div>
       <div className={styles.grid}>
         <div className={styles.generalBookmarksIntro}>
-          <h2 className={`h4 ${styles.title}`}>New this week</h2>
+          <h2 className={`h4 ${styles.title}`}>Thought-provoking Tidbits</h2>
           <p>
-            Explore the list of articles, tools, videos, podcats and online
-            resources that I think will be useful
+            Things that I found interesting and stuff that other people deemed
+            interesting enough to link me 🙂
           </p>
         </div>
         <BookmarkCard devResources={devResources} />

@@ -4,25 +4,25 @@ import Link from "next/link";
 const posterData = [
   {
     path: "blog",
-    linkText: "Experience",
+    linkText: "Join the fun",
     title: "Playground",
-    info: "Place where I play and recreate the design I find online",
+    info: "Play is not a luxury. Play is a necessity. Follow me as I recreate designs I've come across online",
     image:
       "https://images.unsplash.com/photo-1511135570219-bbad9a02f103?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
   },
   {
     path: "bookmarks",
-    linkText: "Find more",
+    linkText: "Explore",
     title: `Bookmarks`,
-    info: "Belajar Ul Design dari dasar",
+    info: "A repository of all things useful and those less so",
     image:
       "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
   },
   {
     path: "blog",
     linkText: "Travel Experiences",
-    title: "Travel blog",
-    info: "Belajar Ul Design dari dasar",
+    title: "Travelogue",
+    info: "trav·​el·​ogue |  ˈtra-və-ˌlȯg  , -ˌläg a piece of writing about travel",
     image:
       "https://images.unsplash.com/photo-1523906921802-b5d2d899e93b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=953&q=80",
   },
