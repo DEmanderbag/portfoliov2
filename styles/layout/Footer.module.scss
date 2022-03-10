@@ -2,8 +2,7 @@
 
 .footer {
   padding: var(--size-7) var(--size-4);
-  background-color: var(--color-3);
-
+  background-color: var(--color-1);
   .message {
     margin-bottom: var(--size-9);
     h2 {
@@ -21,33 +20,15 @@
       font-size: 28px;
     }
   }
-  .links {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--size-4);
-    text-align: left;
-    font-weight: 600;
-  }
-
-  @include respond-above(tablet) {
-    .wrapper {
-      max-width: 92%;
-      margin: 0 auto;
-    }
-    .links {
-      max-width: 40rem;
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-  @include respond-above(laptop) {
-    padding: var(--size-7);
-    .wrapper {
-      max-width: 1140px;
-    }
-    .group {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-  }
+}
+.separator {
+  border-bottom: 1px solid rgb(221, 221, 221) !important;
+  margin: var(--size-4) 0;
+}
+.bold {
+  font-weight: 700;
+  margin-bottom: var(--size-2);
+}
+.links > li {
+  margin-bottom: var(--size-2);
 }
