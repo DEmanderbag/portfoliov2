@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding: var(--size-4);
+  padding: var(--size-3) 0;
   height: 20rem;
 
   .wrapper {
     background: #292f33;
     border-radius: var(--radius-2);
-    box-shadow: 8px 16px 16px hsl(0deg 0% 0% / 0.25);
+    // box-shadow: 8px 16px 16px hsl(0deg 0% 0% / 0.25);
   }
   .location {
     -webkit-transition-delay: 0.5s;

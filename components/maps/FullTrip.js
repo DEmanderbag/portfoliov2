@@ -1,4 +1,4 @@
-import styles from "../../styles/Map.module.scss";
+import styles from "../../styles/components/Map.module.scss";
 
 const FullTrip = () => {
   return (
@@ -996,7 +996,7 @@ const FullTrip = () => {
             strokeOpacity="1"
             strokeWidth="4"
           />
-          <text
+          {/* <text
             className={`${styles.location} ${styles.svgText}`}
             fill="white"
             strokeWidth="0"
@@ -1007,8 +1007,8 @@ const FullTrip = () => {
             y="545"
           >
             Herceg Novi
-          </text>
-          <text
+          </text> */}
+          {/* <text
             className={`${styles.location} ${styles.svgText}`}
             fill="white"
             strokeWidth="0"
@@ -1026,8 +1026,8 @@ const FullTrip = () => {
             stroke="rgba(0,0,0,0.2)"
             strokeOpacity="1"
             strokeWidth="4"
-          />
-          <text
+          /> */}
+          {/* <text
             className={`${styles.location} ${styles.svgText}`}
             fill="white"
             strokeWidth="0"
@@ -1038,7 +1038,7 @@ const FullTrip = () => {
             y="364"
           >
             Beograd
-          </text>
+          </text> */}
         </g>
       </svg>
     </div>
