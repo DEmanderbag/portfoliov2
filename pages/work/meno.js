@@ -9,7 +9,8 @@ const caseStudyIntro = [
     intro:
       "Meno is a modern, fast and responsive website for your coffee shop or restaurant.",
     coverImage: "case-study/download.png",
-    liveWebsite: "https://meno.vercel.app/",
+    isCV: false,
+    contentLink: "https://meno.vercel.app/",
     linkText: "meno.vercel.app",
     background: "#ffebd6",
   },

@@ -66,10 +66,10 @@ const Footer = () => {
     <footer className={styles.footer}>
       {footerData.map((value) => (
         <div key={value}>
-          <div className={styles.message}>
+          {/* <div className={styles.message}>
             <h2>{value.question}</h2>
             <h3>{value.action}</h3>
-          </div>
+          </div> */}
           <div className={styles.contact}>
             <p>{value.name}</p>
             <a href={`mailto:${value.email}`}>{value.email}</a>

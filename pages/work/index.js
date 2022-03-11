@@ -1,5 +1,6 @@
 import styles from "../../styles/Work.module.scss";
 import Project from "../../components/Project";
+import IntroText from "../../components/IntroText";
 
 const projectData = [
   {
@@ -59,12 +60,15 @@ const projectData = [
   },
 ];
 
+const introData = {
+  title: "Projects",
+  subheading: "List of some of my projects that Ive worked on",
+};
 export default function Work() {
   return (
     <section className={styles.wrapper}>
       <div className={styles.intro}>
-        <h1>Work projects</h1>
-        <p>List of some of my projects that Ive worked on</p>
+        <IntroText data={introData} />
       </div>
       <Project projectData={projectData} />
     </section>

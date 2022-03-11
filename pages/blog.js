@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/blog/BlogCard.module.scss";
-
+import IntroText from "../components/IntroText";
 const blogData = [
   {
     title: "Exploring Croatia",
@@ -27,12 +27,16 @@ const blogData = [
 ];
 blogData.sort((a, b) => b.id - a.id);
 
+const introData = {
+  title: "Travelogue",
+  subheading: "Stories from my journeys - every picture begets a few words",
+};
+
 export default function Blog() {
   return (
     <section className={`globalWrapper ${styles.wrapper}`}>
       <div className={styles.intro}>
-        <h1>Travelogue</h1>
-        <p>Stories from my journeys - every picture begets a few words</p>
+        <IntroText data={introData} />
       </div>
       <div className={styles.blogGrid}>
         {blogData.map((blog) => (

@@ -11,12 +11,14 @@ const Intro = ({ caseStudyIntro }) => {
             <p className={styles.heroSphere}>{intro.field}</p>
             <p className={styles.heroDescription}>{intro.intro}</p>
             <a
-              href={intro.liveWebsite}
+              href={intro.contentLink}
               target="_blank"
               rel="noreferrer"
               className={styles.heroLink}
             >
-              → Visit live site ({intro.linkText})
+              {intro.isCV
+                ? `→ Check my resume`
+                : `→ Visit live site (${intro.linkText})`}
             </a>
           </div>
           <div className={styles.heroImageWrapper}>

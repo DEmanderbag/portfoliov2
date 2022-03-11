@@ -1,6 +1,8 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import styles from "../styles/bookmarks/Bookmarks.module.scss";
 import FeatureCard from "../components/booksmarks/FeatureCard";
 import BookmarkCard from "../components/booksmarks/BookmarkCard";
+import IntroText from "../components/IntroText";
 
 const featuredDevResources = [
   {
@@ -381,15 +383,17 @@ const devResources = [
   },
 ];
 
+const introData = {
+  title: "Bookmarks",
+  subheading:
+    "Find a list of useful websites, great blogs, interesting ideas, and podcasts.",
+};
+
 export default function Bookmarks() {
   return (
     <section className={styles.wrapper}>
       <div className={styles.intro}>
-        <h1>Bookmarks</h1>
-        <p>
-          Find a list of useful websites, great blogs, interesting ideas, and
-          podcasts.
-        </p>
+        <IntroText data={introData} />
       </div>
 
       <div className={styles.content}>
