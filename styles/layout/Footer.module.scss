@@ -3,6 +3,10 @@
 .footer {
   padding: var(--size-7) var(--size-4);
   background-color: var(--color-1);
+  .wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
   .message {
     margin-bottom: var(--size-9);
     h2 {

@@ -4,10 +4,6 @@ import { useState, useEffect } from "react";
 
 const navigationData = [
   {
-    linkLabel: "Home",
-    path: "/",
-  },
-  {
     linkLabel: "About",
     path: "/about",
   },
@@ -16,13 +12,17 @@ const navigationData = [
     path: "/work",
   },
   {
-    linkLabel: "Travelogue",
-    path: "/blog",
+    linkLabel: "Playground",
+    path: "/playground",
   },
   {
     linkLabel: "Bookmarks",
     path: "/bookmarks",
   },
+  // {
+  //   linkLabel: "Travelogue",
+  //   path: "/blog",
+  // },
 ];
 
 const Navigation = () => {

@@ -38,6 +38,10 @@ const footerData = [
         path: "/work",
       },
       {
+        name: "Playground",
+        path: "/playground",
+      },
+      {
         name: "Travelouge",
         path: "/blog",
       },
@@ -45,10 +49,6 @@ const footerData = [
         name: "Bookmarks",
         path: "/bookmarks",
       },
-      // {
-      //   name: "Playground",
-      //   path: "/playground",
-      // },
       {
         name: "Links",
         path: "/links",
@@ -65,7 +65,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       {footerData.map((value) => (
-        <div key={value}>
+        <div className={styles.wrapper} key={value}>
           {/* <div className={styles.message}>
             <h2>{value.question}</h2>
             <h3>{value.action}</h3>
