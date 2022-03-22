@@ -56,19 +56,19 @@ export default function About() {
           <a href="https://github.com/DEmanderbag">Github</a>.
         </p>
         <p>
-          Some stuff that makes me excited are CSS, UI Animation, Angular, React
-          and delightful interfaces ✨.
+          Some stuff that make me excited are CSS, UI Animation, Angular, React
+          and delightful interfaces.
         </p>
         <p>
           Outside of work, I&apos;m usually working on{" "}
-          <Link href="/playgroud">
+          <Link href="/playground">
             <a>side projects</a>
           </Link>
           . It helps me learn new skills at my own pace, without the constraints
           of budgets and timelines.
         </p>
         <p>
-          In my spare time, you&apos;ll either find me{" "}
+          In my spare time, you&apos;ll find me{" "}
           <Link href="/blog">
             <a>travelling to new places</a>
           </Link>
