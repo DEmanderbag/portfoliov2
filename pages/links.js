@@ -1,23 +1,37 @@
-/* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
+import Image from "next/image";
 import styles from "../styles/LinksPage.module.scss";
 
 const links = [
   {
-    path: "",
+    platform: "Personal Website",
+    url: "/",
+    shortUrl: "heydusan.com",
+  },
+  {
+    platform: "Github",
+    url: "https://github.com/DEmanderbag",
+    shortUrl: "github.com/DEmanderbag",
+  },
+  {
+    platform: "Bookmarks",
+    url: "/bookmarks",
+    shortUrl: "heydusan.com/bookmarks",
+  },
+  {
+    platform: "Playground",
+    url: "/playground",
+    shortUrl: "heydusan.com/playground",
+  },
+  {
     platform: "Twitter",
-    short: "For announcements, blog posts, and general Radix tips.",
+    url: "https://twitter.com/demanderbag_",
+    shortUrl: "twitter.com/demanderbag_",
   },
   {
-    path: "",
-    platform: "Discord",
-    short: "To get involved in the community, ask questions, and share tips",
-  },
-  {
-    path: "",
-    platform: "GitHub",
-    short:
-      "To file issues, request features, and contribute, check out our GitHub.",
+    platform: "Linkedin",
+    url: "https://www.linkedin.com/in/dusan-milosevic/",
+    shortUrl: "linkedin.com/in/dusan-milosevic",
   },
 ];
 
@@ -30,19 +44,41 @@ export default function LinksPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <p>An active and friendly community 👋</p>
-        <h1>Join our fast-growing community</h1>
-        <div className={styles.linkGrid}>
-          {links.map((link) => (
+        <div className={styles.about}>
+          <div className={styles.imageWrapper}>
+            <Image
+              src="/DusanMilosevic.jpeg"
+              alt="Photo of me with glasses with the tree the background"
+              width={400}
+              height={400}
+              layout="responsive"
+              priority
+            />
+          </div>
+          <p>
+            I&apos;m a Frontend developer working in the medical field and
+            currently living in Antwerp Belgium. My development stack is focused
+            on performance and accessibility, while using latest technology.
+          </p>
+        </div>
+        <div>
+          {links.map((link, index) => (
             <a
               target="_blank"
               rel="noreferrer"
-              href={link.link}
+              href={link.url}
               key={link.platform}
             >
               <div className={styles.card}>
-                <h4 className={styles.platform}>{link.platform}</h4>
-                <span>{link.short}</span>
+                <div className={styles.platform}>
+                  <p className={styles.decoration}>
+                    {index < 9 ? `0${index + 1}` : index + 1}
+                  </p>
+                  <div>
+                    <p className={styles.title}>{link.platform}</p>
+                    <p className={styles.shortUrl}>{link.shortUrl}</p>
+                  </div>
+                </div>
               </div>
             </a>
           ))}
