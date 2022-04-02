@@ -7,8 +7,10 @@
   border-bottom: 1px solid var(--color-2);
   opacity: 0;
   transform: translateY(30px);
-  &:hover {
-    background-color: var(--hover);
+  @media (hover: hover) {
+    &:hover {
+      background-color: var(--hover);
+    }
   }
   .tag {
     border-radius: var(--radius-2);

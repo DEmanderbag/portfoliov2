@@ -5,7 +5,7 @@ const About = () => {
     <section className={`globalWrapper ${styles.about}`}>
       <div className={styles.aboutText}>
         <div>
-          <h2>Hi, I&apos;m Dusan! 👋</h2>
+          <h1 className="h2">Hi, I&apos;m Dusan! 👋</h1>
         </div>
         <p>
           Frontend developer working in the medical field and currently living
