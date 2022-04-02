@@ -2,50 +2,12 @@ import styles from "../styles/about/AboutMain.module.scss";
 import Intro from "../components/case-study/Intro";
 import List from "../components/case-study/List";
 import Link from "next/link";
-
-const caseStudyIntro = [
-  {
-    name: "Dusan Milosevic",
-    field: "Frontend Developer",
-    intro:
-      "I'm currently working in the medical field and living in Antwerp Belgium. My development stack is focused on performance and accessibility, while using latest technology.",
-    coverImage:
-      "60751db04d121379342550c6_image_processing20200129-19798-1k8ponz 11-min-p-500.png",
-    isCV: true,
-    contentLink: "cv.pdf",
-    background: "var(--color-2)",
-  },
-];
-
-const listItems = [
-  {
-    title: "Software",
-    data: [
-      "Visual Studio Code",
-      "Github",
-      "Terminal",
-      "Figma",
-      "Sketch",
-      "Browsers: Safari, Edge",
-      "iCloud 2TB",
-    ],
-  },
-  {
-    title: "Hardware",
-    data: [
-      "MacBook Pro 2018 (6-core Intel i7, 256GB, 16GB, Radeon Pro 555X 4 GB)",
-      "MX Master 3",
-      "iPhone 12 Pro Max 128GB",
-      "Apple Magic Keyboard",
-      "Airpods Pro",
-    ],
-  },
-];
+import data from "../data/about.json";
 
 export default function About() {
   return (
     <section className={styles.layout}>
-      <Intro caseStudyIntro={caseStudyIntro} />
+      <Intro hero={data[0]} />
       <div className={styles.about}>
         <p>
           From the web development side; I&apos;m comfortable with React,
@@ -90,7 +52,7 @@ export default function About() {
         </a>
       </div>
       <div className="p-4">
-        <List listItems={listItems} />
+        <List listItems={data[1]} />
       </div>
     </section>
   );

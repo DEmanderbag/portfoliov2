@@ -1,0 +1,41 @@
+[
+  {
+    "name": "CatWiki",
+    "field": "Personal project",
+    "intro": "Get to know more about your cat breed.",
+    "coverImage": "case-study/four.png",
+    "isCV": false,
+    "contentLink": "https://cat-wiki-dev.vercel.app/",
+    "linkText": "cat-wiki-dev.vercel.app",
+    "background": "#E3E1DC"
+  },
+  {
+    "title": "About the project",
+    "paragraph": "This project uses TheCatAPI and displays the data. Request is made using fetch API inside Next.js getStaticProps function, index.js and breeds.js pages are generated in this way while each cat breed page is generated on a server-side with Next.js getServerSideProps function. For styling i was using CSS Modules with support for SCSS."
+  },
+  [
+    {
+      "title": "Tech Stack",
+      "data": ["Next.js", "CSS Modules (with SCSS support)", "Fetch API"]
+    },
+    {
+      "title": "Platform",
+      "data": ["Web"]
+    },
+    {
+      "title": "User Experience",
+      "data": ["Product design", "Prototyping", "User testings"]
+    },
+    {
+      "title": "Production",
+      "data": ["Design system", "Design libraries", "Documentation"]
+    }
+  ],
+  {
+    "sectionTitle": "Related work",
+    "imageUrl": "/case-study/four.png",
+    "name": "ReachNow",
+    "description": "In this era of plenty, where the large selection of public transportation services overloads many people, we helped Daimler and BMW join forces to unify all mobility options within one single platform: ReachNow.",
+    "actionLabel": "Read more →"
+  }
+]

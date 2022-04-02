@@ -1,42 +1,56 @@
 import Image from "next/image";
 import styles from "../../styles/case-study/Intro.module.scss";
 
-const Intro = ({ caseStudyIntro }) => {
+const Intro = ({ hero }) => {
   return (
     <>
-      {caseStudyIntro.map((intro) => (
-        <section key={intro.name} className={styles.hero}>
-          <div className={`globalWrapper ${styles.heroWrapper}`}>
-            <h1>{intro.name}</h1>
-            <p className={styles.heroSphere}>{intro.field}</p>
-            <p className={styles.heroDescription}>{intro.intro}</p>
+      <section key={hero.name} className={styles.hero}>
+        <div className={`globalWrapper ${styles.heroWrapper}`}>
+          <h1>{hero.name}</h1>
+          <p className={styles.heroSphere}>{hero.field}</p>
+          <p className={styles.heroDescription}>{hero.intro}</p>
+          {hero.isCV && (
             <a
-              href={intro.contentLink}
+              href={hero.contentLink}
               target="_blank"
               rel="noreferrer"
               className={styles.heroLink}
             >
-              {intro.isCV
-                ? `→ Check my resume`
-                : `→ Visit live site (${intro.linkText})`}
+              → Check my resume
             </a>
-          </div>
-          <div className={styles.heroImageWrapper}>
-            <div
-              style={{ backgroundColor: `${intro.background}` }}
-              className={styles.heroImage}
-            >
-              <Image
-                src={`/${intro.coverImage}`}
-                alt="test image"
-                layout="fill"
-                objectFit="cover"
-                priority
-              />
+          )}
+          {!hero.isCV && (
+            <div className={styles.actionButtons}>
+              <a
+                className={`${styles.actionBtn} ${styles.actionBtnPrimary}`}
+                href={hero.contentLink}
+              >
+                Check code on GitHub
+              </a>
+              <a
+                className={`${styles.actionBtn} ${styles.actionBtnSecondary}`}
+                href={hero.contentLink}
+              >
+                Check live version
+              </a>
             </div>
+          )}
+        </div>
+        <div className={styles.heroImageWrapper}>
+          <div
+            style={{ backgroundColor: `${hero.background}` }}
+            className={styles.heroImage}
+          >
+            <Image
+              src={`/${hero.coverImage}`}
+              alt="test image"
+              layout="fill"
+              objectFit="cover"
+              priority
+            />
           </div>
-        </section>
-      ))}
+        </div>
+      </section>
     </>
   );
 };
