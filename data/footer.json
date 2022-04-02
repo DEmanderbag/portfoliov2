@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Ready to make something kickass?",
+    "action": "Let's get on a call.",
+    "name": "Dusan Milosevic",
+    "email": "dusan-milosevic@outlook.com"
+  },
+  [
+    {
+      "name": "Home",
+      "path": "/"
+    },
+    {
+      "name": "About",
+      "path": "/about"
+    },
+    {
+      "name": "Work",
+      "path": "/work"
+    },
+    {
+      "name": "Playground",
+      "path": "/playground"
+    },
+    {
+      "name": "Travelouge",
+      "path": "/blog"
+    },
+    {
+      "name": "Bookmarks",
+      "path": "/bookmarks"
+    },
+    {
+      "name": "Links",
+      "path": "/links"
+    }
+  ],
+  [
+    {
+      "name": "Twitter",
+      "path": "/about"
+    },
+    {
+      "name": "Github",
+      "path": "/about"
+    },
+    {
+      "name": "Linkedin",
+      "path": "/about"
+    },
+    {
+      "name": "Instagram",
+      "path": "/about"
+    }
+  ]
+]
