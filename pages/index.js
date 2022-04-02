@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.scss";
 import Poster from "../components/Poster";
 import Project from "../components/Project";
 import About from "../components/About";
-import Text from "../components/Text";
+import AboutCard from "../components/AboutCard";
 import projectData from "../data/projectData.json";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <About />
         <Project projectData={projectData} />
-        <Text />
+        <AboutCard />
         <Poster />
       </main>
     </div>

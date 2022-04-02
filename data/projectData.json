@@ -12,7 +12,7 @@
       "CSS Modules",
       "Web"
     ],
-    "coverPhoto": "/../public/case-study/download.png",
+    "coverPhoto": "/case-study/download.png",
     "background": "#E3E1DC",
     "tagsBackground": "rgba(187, 131, 47, .1)"
   },
@@ -30,7 +30,7 @@
       "Markdown",
       "Light / Dark mode"
     ],
-    "coverPhoto": "/../public/bmw.png",
+    "coverPhoto": "/bmw.png",
     "background": "#e6ecf2",
     "tagsBackground": "rgba(46, 62, 77, 0.1)"
   },
@@ -40,7 +40,7 @@
     "name": "Meno",
     "description": "Meno is a modern, fast and responsive website for your coffee shop or restaurant.",
     "tags": ["React", "CSS Modules", "Next.js", "UX & UI Design", "Web"],
-    "coverPhoto": "/../public/case-study/download.png",
+    "coverPhoto": "/case-study/download.png",
     "background": "#ffebd6",
     "tagsBackground": "rgba(187, 131, 47, .1)"
   },
@@ -57,7 +57,7 @@
       "Menu",
       "QR code"
     ],
-    "coverPhoto": "/../public/wando.jpg",
+    "coverPhoto": "/wando.jpg",
     "background": "#e6f2ee",
     "tagsBackground": "rgba(46, 77, 66, 0.1)"
   }

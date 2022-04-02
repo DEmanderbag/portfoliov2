@@ -2,7 +2,7 @@
 
 .about {
   padding-top: var(--space-1);
-  padding-bottom: var(--space-1);
+  padding-bottom: var(--size-5);
   &Text {
     margin-bottom: var(--size-4);
     max-width: 600px;
@@ -12,43 +12,5 @@
   }
   .position {
     margin-bottom: var(--size-1);
-  }
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 150px 150px 150px 150px 150px;
-  gap: var(--size-3);
-  grid-auto-flow: column;
-  @include respond-above(tablet) {
-    grid-template-columns: 1fr 1.5fr 1fr;
-    grid-template-rows: 250px 250px;
-  }
-  div {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    &:nth-child(1) {
-      grid-column: 1 / -1;
-      grid-row: span 2;
-      @include respond-above(tablet) {
-        grid-column: 2 / 3;
-        grid-row: span 2;
-      }
-    }
-    &:nth-child(4) {
-      grid-column: 1 / -1;
-      grid-row: span 2;
-      @include respond-above(tablet) {
-        grid-column: 1 / 2;
-        grid-row: span 2;
-      }
-    }
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
   }
 }
