@@ -2,8 +2,6 @@ import styles from "../../styles/layout/Footer.module.scss";
 import Link from "next/link";
 import data from "../../data/footer.json";
 
-console.log(data);
-
 const Footer = () => {
   return (
     <footer className={styles.footer}>

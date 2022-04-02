@@ -12,10 +12,10 @@ const AboutCard = () => {
           and our planet. I have a strong background in Webflow development and
           over the years I’ve used my various skills to do some really fun work
           for a variety of companies, in addition to numerous personal projects.
-          <p>
-            In 2019 I received a scholarship to Apple&apos;s Worldwide Developer
-            conference (WWDC) by applying with my interactive pepeha project.
-          </p>
+        </p>
+        <p>
+          In 2019 I received a scholarship to Apple&apos;s Worldwide Developer
+          conference (WWDC) by applying with my interactive pepeha project.
         </p>
         <Link href="/about">
           <a>Read more</a>
