@@ -6,10 +6,6 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.wrapper}>
-        <div className={styles.message}>
-          <h2>{data[0].question}</h2>
-          <h3>{data[0].action}</h3>
-        </div>
         <div className={styles.contact}>
           <p>{data[0].name}</p>
           <a href={`mailto:${data[0].email}`}>{data[0].email}</a>
