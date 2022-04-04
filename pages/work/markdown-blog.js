@@ -11,9 +11,7 @@ export default function MarkdownBlog() {
     <main>
       <Intro hero={data[0]} />
       <TextBlock textData={data[1]} />
-      <div className="p-4">
-        <List listItems={data[2]} />
-      </div>
+      <List listItems={data[2]} />
       <div className={styles.gallery}>
         <div className={styles.cover}>
           <Image

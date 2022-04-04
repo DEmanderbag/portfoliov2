@@ -51,9 +51,7 @@ export default function About() {
           Contact me
         </a>
       </div>
-      <div className="p-4">
-        <List listItems={data[1]} />
-      </div>
+      <List listItems={data[1]} />
     </section>
   );
 }
