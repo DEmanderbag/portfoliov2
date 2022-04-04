@@ -30,11 +30,8 @@ export default function About() {
           of budgets and timelines.
         </p>
         <p>
-          In my spare time, you&apos;ll find me{" "}
-          <Link href="/blog">
-            <a>travelling to new places</a>
-          </Link>
-          , listening to audiobooks and podcasts, or taking photos.
+          In my spare time, you&apos;ll find me travelling to new places,
+          listening to audiobooks and podcasts, or taking photos.
         </p>
         <p>
           Leaving time for sports like running, cycling, and jump rope is
