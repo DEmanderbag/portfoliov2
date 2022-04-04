@@ -5,8 +5,8 @@
     "intro": "Simple and lightweight theme with a strong focus on the beauty of typography. Powered by Markdown and Next.js.",
     "coverImage": "case-study/four.png",
     "isCV": false,
-    "contentLink": "https://cat-wiki-dev.vercel.app/",
-    "linkText": "cat-wiki-dev.vercel.app",
+    "codeLink": "https://github.com/DEmanderbag",
+    "websiteLink": "https://cat-wiki-dev.vercel.app/",
     "background": "#E3E1DC"
   },
   {

@@ -5,8 +5,9 @@
     "intro": "Meno is a modern, fast and responsive website for your coffee shop or restaurant.",
     "coverImage": "case-study/download.png",
     "isCV": false,
-    "contentLink": "https://meno.vercel.app/",
-    "linkText": "meno.vercel.app",
+    "cvLink": "",
+    "codeLink": "https://github.com/DEmanderbag",
+    "websiteLink": "https://meno.vercel.app/",
     "background": "#ffebd6"
   },
   {

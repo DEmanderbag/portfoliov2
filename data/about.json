@@ -5,8 +5,9 @@
     "intro": "I'm currently working in the medical field and living in Antwerp Belgium. My development stack is focused on performance and accessibility, while using latest technology.",
     "coverImage": "60751db04d121379342550c6_image_processing20200129-19798-1k8ponz 11-min-p-500.png",
     "isCV": true,
-    "contentLink": "/cv.pdf",
-    "linkText": "cat-wiki-dev.vercel.app",
+    "cvLink": "/cv.pdf",
+    "codeLink": "",
+    "websiteLink": "",
     "background": "var(--color-2)"
   },
   [

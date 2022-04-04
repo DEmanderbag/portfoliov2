@@ -11,7 +11,7 @@ const Intro = ({ hero }) => {
           <p className={styles.heroDescription}>{hero.intro}</p>
           {hero.isCV && (
             <a
-              href={hero.contentLink}
+              href={hero.cvLink}
               target="_blank"
               rel="noreferrer"
               className={styles.heroLink}
@@ -21,18 +21,26 @@ const Intro = ({ hero }) => {
           )}
           {!hero.isCV && (
             <div className={styles.actionButtons}>
-              <a
-                className={`${styles.actionBtn} ${styles.actionBtnPrimary}`}
-                href={hero.contentLink}
-              >
-                Check code on GitHub
-              </a>
-              <a
-                className={`${styles.actionBtn} ${styles.actionBtnSecondary}`}
-                href={hero.contentLink}
-              >
-                Check live version
-              </a>
+              {hero.codeLink && (
+                <a
+                  className={`${styles.actionBtn} ${styles.actionBtnPrimary}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  href={hero.codeLink}
+                >
+                  Check code on GitHub
+                </a>
+              )}
+              {hero.websiteLink && (
+                <a
+                  className={`${styles.actionBtn} ${styles.actionBtnSecondary}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  href={hero.websiteLink}
+                >
+                  Check live version
+                </a>
+              )}
             </div>
           )}
         </div>

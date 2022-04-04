@@ -5,8 +5,9 @@
     "intro": "Get to know more about your cat breed.",
     "coverImage": "case-study/four.png",
     "isCV": false,
-    "contentLink": "https://cat-wiki-dev.vercel.app/",
-    "linkText": "cat-wiki-dev.vercel.app",
+    "cvLink": "",
+    "codeLink": "https://github.com/DEmanderbag",
+    "websiteLink": "https://cat-wiki-dev.vercel.app/",
     "background": "#E3E1DC"
   },
   {
