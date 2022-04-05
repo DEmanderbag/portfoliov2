@@ -1,12 +1,11 @@
 import Intro from "../../components/case-study/Intro";
-import data from "../../data/playground/advice-generator-app.json";
+import data from "../../data/playground/hey-dusan.json";
 import TextBlock from "../../components/case-study/TextBlock";
 import List from "../../components/case-study/List";
 import Image from "next/image";
-import ReadMore from "../../components/ReadMore";
 import styles from "../../styles/playgroud/PlaygroundArticle.module.scss";
 
-export default function AdviceGeneratorApp() {
+export default function HeyDusan() {
   return (
     <main>
       <Intro hero={data[0]} />
@@ -45,7 +44,6 @@ export default function AdviceGeneratorApp() {
       {/* </div> */}
       <TextBlock textData={data[3]} />
       <TextBlock textData={data[4]} />
-      <ReadMore readMore={data[5]} />
     </main>
   );
 }

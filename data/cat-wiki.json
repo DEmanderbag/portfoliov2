@@ -18,18 +18,6 @@
     {
       "title": "Tech Stack",
       "data": ["Next.js", "CSS Modules (with SCSS support)", "Fetch API"]
-    },
-    {
-      "title": "Platform",
-      "data": ["Web"]
-    },
-    {
-      "title": "User Experience",
-      "data": ["Product design", "Prototyping", "User testings"]
-    },
-    {
-      "title": "Production",
-      "data": ["Design system", "Design libraries", "Documentation"]
     }
   ],
   {

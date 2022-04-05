@@ -1,5 +1,10 @@
 .wrapper {
-  max-width: 65ch;
+  max-width: 700px;
+  margin: 0 auto;
+  // text-align: center;
+  p {
+    margin-bottom: var(--size-3);
+  }
 }
 .title {
   margin-bottom: var(--size-2);

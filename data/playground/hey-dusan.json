@@ -1,0 +1,30 @@
+[
+  {
+    "name": "HeyDusan",
+    "intro": "Simple, fast, responsive and efficient portfolio website with a perfect Lighthouse score",
+    "coverImage": "case-study/four.png",
+    "isCV": false,
+    "cvLink": "",
+    "codeLink": "https://github.com/DEmanderbag/portfolio",
+    "websiteLink": "",
+    "background": "#E3E1DC"
+  },
+  {
+    "title": "About the project",
+    "paragraph": "Goal for this portfolio website was to showcase some of the projects I've worked on, with speed and responsiveness in mind. This is a simple one page website with clean typograph, beautiful project images and nice colors."
+  },
+  [
+    {
+      "title": "Tech Stack",
+      "data": ["HTML", "CSS", "JavaScript"]
+    }
+  ],
+  {
+    "title": "HTML / CSS",
+    "paragraph": "HTML code is semantic with classes that are using BEM methodology. Inside the head of I've used meta tags to display links properly on social media apps. This project was using only one CSS file witch worked for this project but it's definitley not mantainable in the long run. I was using CSS with Variables, Flexbox and Grid."
+  },
+  {
+    "title": "JavaScript",
+    "paragraph": "All JavaScript logic is contained inside one JS file called app.js, same as a prevous point above it worked for this project but not mantainable in the long run. I was using IntersectionObserver API to load images as they were scrolled to. For navigation I've added click event to project and social links that would trigger scroll fucntion to that section of the page, lastly for the WeChat link I've also added click event that would display WeChat QR code for my account."
+  }
+]
