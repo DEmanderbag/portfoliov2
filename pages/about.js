@@ -26,12 +26,13 @@ export default function About() {
           <Link href="/playground">
             <a>side projects</a>
           </Link>
-          . It helps me learn new skills at my own pace, without the constraints
-          of budgets and timelines.
+          , this helps me learn new skills at my own pace, without the
+          constraints of budgets and timelines.
         </p>
         <p>
           In my spare time, you&apos;ll find me travelling to new places,
-          listening to audiobooks and podcasts, or taking photos.
+          listening to audiobooks and podcasts, taking photos or helping people
+          with day to day tasks on Be My Eyes.
         </p>
         <p>
           Leaving time for sports like running, cycling, and jump rope is
