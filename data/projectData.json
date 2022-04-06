@@ -35,6 +35,16 @@
     "tagsBackground": "rgba(46, 62, 77, 0.1)"
   },
   {
+    "path": "/project",
+    "linkText": "Experience",
+    "name": "Digital menu",
+    "description": "Wando is our own, clean answer to all the cluttered to-do-apps out there. We founded and designed this project to be as minimalistic and calm as possible, to put focus on the content and allow people and ideas to breathe.",
+    "tags": ["HTML", "CSS", "JavaScript", "PWA", "Web"],
+    "coverPhoto": "/wando.jpg",
+    "background": "#e6f2ee",
+    "tagsBackground": "rgba(46, 77, 66, 0.1)"
+  },
+  {
     "path": "/work/meno",
     "linkText": "Experience",
     "name": "Meno",
@@ -43,22 +53,5 @@
     "coverPhoto": "/case-study/download.png",
     "background": "#ffebd6",
     "tagsBackground": "rgba(187, 131, 47, .1)"
-  },
-  {
-    "path": "/project",
-    "linkText": "Experience",
-    "name": "Giffy search box",
-    "description": "Wando is our own, clean answer to all the cluttered to-do-apps out there. We founded and designed this project to be as minimalistic and calm as possible, to put focus on the content and allow people and ideas to breathe.",
-    "tags": [
-      "User Research",
-      "PWA",
-      "Web",
-      "UX & UI Design",
-      "Menu",
-      "QR code"
-    ],
-    "coverPhoto": "/wando.jpg",
-    "background": "#e6f2ee",
-    "tagsBackground": "rgba(46, 77, 66, 0.1)"
   }
 ]
