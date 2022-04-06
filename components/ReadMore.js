@@ -24,9 +24,11 @@ const ReadMore = ({ readMore }) => {
         <div className={styles.readMoreAbout}>
           <h3 className={styles.readMoreTitle}>{readMore.name}</h3>
           <p>{readMore.description}</p>
-          <Link href={readMore.url}>
-            <a>{readMore.actionLabel}</a>
-          </Link>
+          {readMore.url && (
+            <Link href={readMore.url}>
+              <a>{readMore.actionLabel}</a>
+            </Link>
+          )}
         </div>
       </div>
     </section>

@@ -4,8 +4,8 @@ import styles from "../../styles/playgroud/PlaygroundCard.module.scss";
 const PlaygroundCard = ({ data }) => {
   return (
     <>
-      {data.map((article) => (
-        <article key={article.name} className={styles.card}>
+      {data.map((article, i) => (
+        <article key={i} className={styles.card}>
           <div className={styles.cardImage}></div>
           <p className={styles.date}>Published on {article.date}</p>
           <h2 className={styles.title}>{article.title}</h2>
