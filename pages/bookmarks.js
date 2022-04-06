@@ -11,7 +11,6 @@ export default function Bookmarks() {
       <div className={styles.intro}>
         <IntroText data={data[0]} />
       </div>
-
       <div className={styles.content}>
         <h2 className={`h3 ${styles.title}`}>Front-end resources</h2>
         <div className={styles.gallery}>

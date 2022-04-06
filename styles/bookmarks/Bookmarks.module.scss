@@ -24,7 +24,7 @@
   column-gap: var(--gap);
   background-color: var(--color-2);
   margin-top: var(--size-4);
-
+  animation: 0.5s slideUp ease forwards;
   & > * {
     grid-column: 2;
   }
@@ -86,9 +86,18 @@
   border-bottom: 1px solid var(--color-2);
   grid-column: 1 / -1;
 }
-
 .title {
   line-height: 1;
   margin-bottom: var(--size-2);
   font-weight: 600;
+}
+@keyframes slideUp {
+  from {
+    opacity: 0.5;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
