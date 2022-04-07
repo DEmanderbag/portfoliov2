@@ -2,12 +2,12 @@
   {
     "name": "Advice generator app",
     "intro": "Small project that is using Advice Slip API to generate random quotes of advice.",
-    "coverImage": "case-study/four.png",
+    "coverImage": "playground/advice-app.jpg",
     "isCV": false,
     "cvLink": "",
     "codeLink": "https://github.com/DEmanderbag",
     "websiteLink": "",
-    "background": "#E3E1DC"
+    "background": "#ffffff"
   },
   {
     "title": "About the project",
@@ -29,7 +29,7 @@
   },
   {
     "sectionTitle": "Next playground article",
-    "imageUrl": "/case-study/four.png",
+    "imageUrl": "/playground/hey-dusan.jpg",
     "name": "HeyDusan",
     "description": "HeyDusan is first version of my portfolio webside that is created with HTML/CSS and little bit of JS. Website is fast and reponsive with perfect score on Lighthouse.",
     "actionLabel": "Read more →",

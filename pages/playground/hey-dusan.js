@@ -11,37 +11,17 @@ export default function HeyDusan() {
       <Intro hero={data[0]} />
       <TextBlock textData={data[1]} />
       <List listItems={data[2]} />
-      {/* <div className={styles.gallery}> */}
       <div className={styles.imageWrapper}>
         <Image
-          src="/playground/aga1.png"
+          src="/playground/hd1.jpg"
           alt="Picture of the author"
           placeholder="blur"
-          blurDataURL="/playground/aga1.png"
-          width={200}
+          blurDataURL="/playground/hd1.jpg"
+          width={150}
           height={100}
           layout="responsive"
         />
       </div>
-      {/* <Image
-        src="/playground/aga2.png"
-        alt="Picture of the author"
-        placeholder="blur"
-        blurDataURL="/playground/aga2.png"
-        width={400}
-        height={400}
-        layout="responsive"
-      /> */}
-      {/* <Image
-          src="/case-study/two.png"
-          alt="Picture of the author"
-          placeholder="blur"
-          blurDataURL="/case-study/two.png"
-          width={400}
-          height={400}
-          layout="responsive"
-        /> */}
-      {/* </div> */}
       <TextBlock textData={data[3]} />
       <TextBlock textData={data[4]} />
     </main>

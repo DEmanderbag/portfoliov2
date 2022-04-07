@@ -12,37 +12,17 @@ export default function AdviceGeneratorApp() {
       <Intro hero={data[0]} />
       <TextBlock textData={data[1]} />
       <List listItems={data[2]} />
-      {/* <div className={styles.gallery}> */}
       <div className={styles.imageWrapper}>
         <Image
-          src="/playground/aga1.png"
+          src="/playground/aga1.jpg"
           alt="Picture of the author"
           placeholder="blur"
-          blurDataURL="/playground/aga1.png"
+          blurDataURL="/playground/aga1.jpg"
           width={200}
-          height={100}
+          height={150}
           layout="responsive"
         />
       </div>
-      {/* <Image
-        src="/playground/aga2.png"
-        alt="Picture of the author"
-        placeholder="blur"
-        blurDataURL="/playground/aga2.png"
-        width={400}
-        height={400}
-        layout="responsive"
-      /> */}
-      {/* <Image
-          src="/case-study/two.png"
-          alt="Picture of the author"
-          placeholder="blur"
-          blurDataURL="/case-study/two.png"
-          width={400}
-          height={400}
-          layout="responsive"
-        /> */}
-      {/* </div> */}
       <TextBlock textData={data[3]} />
       <TextBlock textData={data[4]} />
       <ReadMore readMore={data[5]} />
