@@ -1,7 +1,5 @@
 import Intro from "../../components/case-study/Intro";
-import List from "../../components/case-study/List";
 import TextBlock from "../../components/case-study/TextBlock";
-import ReadMore from "../../components/ReadMore";
 import data from "../../data/work/meno.json";
 import Image from "next/image";
 import styles from "../../styles/case-study/Main.module.scss";
@@ -11,7 +9,6 @@ export default function Meno() {
     <main>
       <Intro hero={data[0]} />
       <TextBlock textData={data[1]} />
-      <List listItems={data[2]} />
       <div className={styles.gallery}>
         <div className={styles.cover}>
           <Image
@@ -43,8 +40,6 @@ export default function Meno() {
           layout="responsive"
         />
       </div>
-      <TextBlock textData={data[3]} />
-      <ReadMore readMore={data[3]} />
     </main>
   );
 }

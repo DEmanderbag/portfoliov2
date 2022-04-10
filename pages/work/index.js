@@ -1,7 +1,7 @@
 import styles from "../../styles/Work.module.scss";
 import Project from "../../components/Project";
 import IntroText from "../../components/IntroText";
-import projectData from "../../data/projectData.json";
+import index from "../../data/work/index.json";
 
 const introData = {
   title: "Projects",
@@ -14,7 +14,7 @@ export default function Work() {
       <div className={styles.intro}>
         <IntroText data={introData} />
       </div>
-      <Project projectData={projectData} />
+      <Project projectData={index} />
     </section>
   );
 }

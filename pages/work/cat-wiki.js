@@ -44,7 +44,8 @@ export default function CatWiki() {
           objectFit="contain"
         />
       </div>
-      <ReadMore readMore={data[3]} />
+      <TextBlock textData={data[3]} />
+      <ReadMore readMore={data[4]} />
     </main>
   );
 }

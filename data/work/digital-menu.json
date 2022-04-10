@@ -28,11 +28,11 @@
   ],
   {
     "title": "How does it work",
-    "paragraph": "Imagine that you are in a restaurant and you see a QR code for a menu. Using your mobile camera you can scan that code and the website will open. That website is this digital menu, this menu is smart, it checks your device prefered language and if the menu does support it displays it in your language prefered language. If you lose an internet connection menu will not crash it will continue to work normally and you can even add it to your home screen to use it as an app."
+    "paragraph": "Imagine that you are in a restaurant, and you see a QR code for a menu. Using your mobile camera, you can scan that code, and the website will open. That website is this digital menu. This menu checks your device's preferred language and displays the menu in that language if the menu supports your language. If you lose an internet connection, the menu will not crash--it will continue to operate normally and you may even add it to your home screen for easier access."
   },
   {
     "sectionTitle": "Next project",
-    "imageUrl": "/case-study/four.png",
+    "imageUrl": "/case-study/meno.jpg",
     "name": "Meno",
     "description": "Meno is a modern, fast and responsive website for your coffee shop or restaurant.",
     "actionLabel": "Read more →",

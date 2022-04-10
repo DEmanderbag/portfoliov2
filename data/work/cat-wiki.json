@@ -12,7 +12,7 @@
   },
   {
     "title": "About the project",
-    "paragraph": "This project uses TheCatAPI and displays the data. Request is made using fetch API inside Next.js getStaticProps function, index.js and breeds.js pages are generated in this way while each cat breed page is generated on a server-side with Next.js getServerSideProps function. For styling i was using CSS Modules with support for SCSS."
+    "paragraph": "Curious about cat breeds? You can search for a specific breed or pick one of four popular varieties. For each individual breed, you can read up on his or her temperament, origin, life span, adaptability, affection level, child-friendly attributes, grooming needs, intelligence, health issues such as common illnesses or conditions such as hair loss or eye problems. If there are social needs and activities like hunting or digging trails or even if it is an affectionate animal to children and strangers alike."
   },
   [
     {
@@ -20,6 +20,10 @@
       "data": ["Next.js", "CSS Modules (with SCSS support)", "Fetch API"]
     }
   ],
+  {
+    "title": "How does it work",
+    "paragraph": "This project uses TheCatAPI and renders the data. The API requests are made using fetch API inside Next.js getStaticProps function, and the index.js and breeds.js pages are generated in this way. Each cat breed page is generated on a server with Next.js getServerSideProps function for styling I was using CSS Modules with support for SCSS."
+  },
   {
     "sectionTitle": "Next project",
     "imageUrl": "/case-study/digital-menu.jpg",

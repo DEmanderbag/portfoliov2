@@ -11,32 +11,7 @@
     "background": "#ffebd6"
   },
   {
-    "title": "Idea for the project",
-    "paragraph": "The idea for this project came up while I was looking for a coffee restaurants near me and realised that most of them don’t have a nice UI and some of them don’t even have responsive or mobile versions. This project contains beautiful landing page with a simple menu page that is perfect for both mobile and desktop."
-  },
-  [
-    {
-      "title": "Platform",
-      "data": ["iOS", "Andoid", "Web"]
-    },
-    {
-      "title": "Strategy",
-      "data": ["Workshops", "Design sprints", "Positioning"]
-    },
-    {
-      "title": "User Experience",
-      "data": ["Product design", "Prototyping", "User testings"]
-    },
-    {
-      "title": "Production",
-      "data": ["Design system", "Design libraries", "Documentation"]
-    }
-  ],
-  {
-    "sectionTitle": "Related work",
-    "imageUrl": "/case-study/four.png",
-    "name": "ReachNow",
-    "description": "In this era of plenty, where the large selection of public transportation services overloads many people, we helped Daimler and BMW join forces to unify all mobility options within one single platform: ReachNow.",
-    "actionLabel": "Read more →"
+    "title": "About the project",
+    "paragraph": "Simple, clean website for a client that focuses on simplicity. Shows the most important information without any clutter. With a dedicated menu page that fits perfectly in the palm of your hands."
   }
 ]

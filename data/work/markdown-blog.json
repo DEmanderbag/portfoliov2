@@ -2,7 +2,7 @@
   {
     "name": "Markdown blog",
     "field": "Personal project",
-    "intro": "Simple and lightweight theme with a strong focus on the beauty of typography. Powered by Markdown and Next.js.",
+    "intro": "Modern, lightweight theme with a typography-focused design. Powered by Markdown and Next.js.",
     "coverImage": "case-study/mb-hero.png",
     "isCV": false,
     "codeLink": "https://github.com/DEmanderbag",
@@ -11,7 +11,7 @@
   },
   {
     "title": "About the project",
-    "paragraph": "Simple and easy solution for your first blog with support for multiple languages (as many as you know them). The website is optimised and responsive and it comes with light and dark modes, easily customizable. Data is coming from the Markdown file that is located in the posts folder."
+    "paragraph": "A simple, easy solution for your first blog with support for multiple locales. The website is optimized and responsive, and comes with alternative themes: light and dark. The data comes from your Markdown files located in the posts folder."
   },
   [
     {
@@ -25,7 +25,7 @@
   ],
   {
     "title": "How does it work",
-    "paragraph": "This project comes out of the box with the support for English (EN) and German (DE) languages. Data is located in the posts folder which is additionally separated by specific topic. Code is simple and easy to understand with customisation in mind. You can change colours, fonts and even languages that are supported with just a couple of lines of code. To generate a new post all you need to do is create a new folder inside the post folder that will contain the name of the article. The name of the folder is what it will show up as a link."
+    "paragraph": "This project comes out of the box with support for English (EN) and German (DE) languages, using separate files to keep data organized. The Code is simple and easy to understand, and can be easily customized by changing colors, fonts, or adding new languages. To generate a new post, create a new folder inside of the posts folder with the name of the article. That name will show up as a link on the page."
   },
   {
     "sectionTitle": "Next project",

@@ -4,7 +4,7 @@ import Poster from "../components/Poster";
 import Project from "../components/Project";
 import About from "../components/About";
 import AboutCard from "../components/AboutCard";
-import projectData from "../data/projectData.json";
+import index from "../data/work/index.json";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <About />
-        <Project projectData={projectData} />
+        <Project projectData={index} />
         <AboutCard />
         <Poster />
       </main>
