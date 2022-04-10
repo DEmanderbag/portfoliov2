@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Digital menu",
+    "field": "Food and hospitality",
+    "intro": "Fast loading digital menu with for your store with an offline support, easily installable on your device and with the support for multiple languages.",
+    "coverImage": "case-study/digital-menu.jpg",
+    "isCV": false,
+    "cvLink": "",
+    "codeLink": "https://github.com/DEmanderbag/whitelabel",
+    "websiteLink": "https://whitelabel-eight.vercel.app/",
+    "background": "#B99D7F"
+  },
+  {
+    "title": "About this project",
+    "paragraph": "When you scan a QR code it's important that the menu loads fast, this menu does. Speed and responsiveness were the priority, with a perfect lighthouse score, and support for multiple languages as well as offline mode. If you are visiting this restaurant frequently you can even add it to your home screen."
+  },
+  [
+    {
+      "title": "Tech Stack",
+      "data": [
+        "HTML",
+        "CSS (SCSS support)",
+        "JavaScript (PWA, Service workes)",
+        "Offline support",
+        "Multiple languages"
+      ]
+    }
+  ],
+  {
+    "title": "How does it work",
+    "paragraph": "Imagine that you are in a restaurant and you see a QR code for a menu. Using your mobile camera you can scan that code and the website will open. That website is this digital menu, this menu is smart, it checks your device prefered language and if the menu does support it displays it in your language prefered language. If you lose an internet connection menu will not crash it will continue to work normally and you can even add it to your home screen to use it as an app."
+  },
+  {
+    "sectionTitle": "Next project",
+    "imageUrl": "/case-study/four.png",
+    "name": "Meno",
+    "description": "Meno is a modern, fast and responsive website for your coffee shop or restaurant.",
+    "actionLabel": "Read more →",
+    "url": "/work/meno"
+  }
+]

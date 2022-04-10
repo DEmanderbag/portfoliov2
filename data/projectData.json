@@ -1,22 +1,5 @@
 [
   {
-    "path": "/work/cat-wiki",
-    "linkText": "Experience",
-    "name": "CatWiki",
-    "description": "Get to know more about your cat breed",
-    "tags": [
-      "Next.js",
-      "API",
-      "Static Generation",
-      "Server-side Rendering",
-      "CSS Modules",
-      "Web"
-    ],
-    "coverPhoto": "/case-study/cat-wiki-hero.png",
-    "background": "#E3E1DC",
-    "tagsBackground": "rgba(187, 131, 47, .1)"
-  },
-  {
     "path": "/work/markdown-blog",
     "linkText": "Experience",
     "name": "Markdown Blog",
@@ -30,18 +13,42 @@
       "Markdown",
       "Light / Dark mode"
     ],
-    "coverPhoto": "/bmw.png",
+    "coverPhoto": "/case-study/mb-hero.png",
     "background": "#e6ecf2",
     "tagsBackground": "rgba(46, 62, 77, 0.1)"
   },
   {
-    "path": "/project",
+    "path": "/work/cat-wiki",
+    "linkText": "Experience",
+    "name": "CatWiki",
+    "description": "Get to know more about your cat breed.",
+    "tags": [
+      "Next.js",
+      "API",
+      "Static Generation",
+      "Server-side Rendering",
+      "CSS Modules",
+      "Web"
+    ],
+    "coverPhoto": "/case-study/cat-wiki-hero.png",
+    "background": "#E3E1DC",
+    "tagsBackground": "rgba(187, 131, 47, .1)"
+  },
+  {
+    "path": "/work/digital-menu",
     "linkText": "Experience",
     "name": "Digital menu",
-    "description": "Wando is our own, clean answer to all the cluttered to-do-apps out there. We founded and designed this project to be as minimalistic and calm as possible, to put focus on the content and allow people and ideas to breathe.",
-    "tags": ["HTML", "CSS", "JavaScript", "PWA", "Web"],
-    "coverPhoto": "/wando.jpg",
-    "background": "#e6f2ee",
+    "description": "Fast loading digital menu with for your store with an offline support, easily installable on your device and with the support for multiple languages.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PWA",
+      "Multi language support",
+      "Offline support"
+    ],
+    "coverPhoto": "/case-study/digital-menu.png",
+    "background": "#cab6a0",
     "tagsBackground": "rgba(46, 77, 66, 0.1)"
   },
   {
@@ -49,8 +56,8 @@
     "linkText": "Experience",
     "name": "Meno",
     "description": "Meno is a modern, fast and responsive website for your coffee shop or restaurant.",
-    "tags": ["React", "CSS Modules", "Next.js", "UX & UI Design", "Web"],
-    "coverPhoto": "/case-study/download.png",
+    "tags": ["Next.js", "CSS Modules", "Reponsive", "Optimized"],
+    "coverPhoto": "/case-study/meno-hero.png",
     "background": "#ffebd6",
     "tagsBackground": "rgba(187, 131, 47, .1)"
   }

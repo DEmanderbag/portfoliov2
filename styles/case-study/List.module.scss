@@ -6,11 +6,10 @@
     grid-template-columns: 1fr;
     padding-top: var(--size-7);
     padding-bottom: var(--size-7);
+    max-width: 700px;
+    margin: 0 auto;
     @include respond-above(tablet) {
       grid-template-columns: repeat(2, 1fr);
-    }
-    @include respond-above(laptop) {
-      grid-template-columns: repeat(4, 1fr);
     }
   }
   &Wrapper {

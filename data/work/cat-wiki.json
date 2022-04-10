@@ -3,7 +3,7 @@
     "name": "CatWiki",
     "field": "Personal project",
     "intro": "Get to know more about your cat breed.",
-    "coverImage": "case-study/four.png",
+    "coverImage": "case-study/cat-wiki-hero.png",
     "isCV": false,
     "cvLink": "",
     "codeLink": "https://github.com/DEmanderbag",
@@ -21,10 +21,11 @@
     }
   ],
   {
-    "sectionTitle": "Related work",
-    "imageUrl": "/case-study/four.png",
-    "name": "ReachNow",
-    "description": "In this era of plenty, where the large selection of public transportation services overloads many people, we helped Daimler and BMW join forces to unify all mobility options within one single platform: ReachNow.",
-    "actionLabel": "Read more →"
+    "sectionTitle": "Next project",
+    "imageUrl": "/case-study/digital-menu.jpg",
+    "name": "Digital menu",
+    "description": "Fast loading digital menu with for your store with an offline support, easily installable on your device and with the support for multiple languages.",
+    "actionLabel": "Read more →",
+    "url": "/work/digital-menu"
   }
 ]

@@ -24,6 +24,9 @@ const Intro = ({ hero }) => {
               {hero.codeLink && (
                 <a
                   className={`${styles.actionBtn} ${styles.actionBtnPrimary}`}
+                  style={{
+                    backgroundColor: `${hero.background}`,
+                  }}
                   target="_blank"
                   rel="noreferrer"
                   href={hero.codeLink}
@@ -34,6 +37,7 @@ const Intro = ({ hero }) => {
               {hero.websiteLink && (
                 <a
                   className={`${styles.actionBtn} ${styles.actionBtnSecondary}`}
+                  style={{ borderColor: `${hero.background}` }}
                   target="_blank"
                   rel="noreferrer"
                   href={hero.websiteLink}

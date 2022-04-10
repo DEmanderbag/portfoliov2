@@ -3,10 +3,10 @@
     "name": "Meno",
     "field": "Food and hospitality",
     "intro": "Meno is a modern, fast and responsive website for your coffee shop or restaurant.",
-    "coverImage": "case-study/download.png",
+    "coverImage": "case-study/meno-hero.png",
     "isCV": false,
     "cvLink": "",
-    "codeLink": "https://github.com/DEmanderbag",
+    "codeLink": "",
     "websiteLink": "https://meno.vercel.app/",
     "background": "#ffebd6"
   },

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Markdown blog",
+    "field": "Personal project",
+    "intro": "Simple and lightweight theme with a strong focus on the beauty of typography. Powered by Markdown and Next.js.",
+    "coverImage": "case-study/mb-hero.png",
+    "isCV": false,
+    "codeLink": "https://github.com/DEmanderbag",
+    "websiteLink": "https://minimal-blog-ten.vercel.app/",
+    "background": "#e6ecf2"
+  },
+  {
+    "title": "About the project",
+    "paragraph": "Simple and easy solution for your first blog with support for multiple languages (as many as you know them). The website is optimised and responsive and it comes with light and dark modes, easily customizable. Data is coming from the Markdown file that is located in the posts folder."
+  },
+  [
+    {
+      "title": "Tech Stack",
+      "data": [
+        "Next.js (getStaticProps/Paths, i18n)",
+        "CSS Modules (with SCSS support)",
+        "Markdown"
+      ]
+    }
+  ],
+  {
+    "title": "How does it work",
+    "paragraph": "This project comes out of the box with the support for English (EN) and German (DE) languages. Data is located in the posts folder which is additionally separated by specific topic. Code is simple and easy to understand with customisation in mind. You can change colours, fonts and even languages that are supported with just a couple of lines of code. To generate a new post all you need to do is create a new folder inside the post folder that will contain the name of the article. The name of the folder is what it will show up as a link."
+  },
+  {
+    "sectionTitle": "Next project",
+    "imageUrl": "/case-study/cat-wiki.jpg",
+    "name": "CatWiki",
+    "description": "Get to know more about your cat breed.",
+    "actionLabel": "Read more →",
+    "url": "/work/cat-wiki"
+  }
+]

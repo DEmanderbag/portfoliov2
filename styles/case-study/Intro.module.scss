@@ -40,14 +40,13 @@
     height: 25rem;
     position: relative;
     @include respond-above(tablet) {
-      height: 600px;
+      height: 700px;
     }
   }
   &Link {
     border-bottom: 2px solid var(--color-2);
   }
 }
-
 .actionButtons {
   max-width: max-content;
   margin: 0 auto;

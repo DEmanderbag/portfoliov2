@@ -4,7 +4,7 @@ import TextBlock from "../../components/case-study/TextBlock";
 import styles from "../../styles/case-study/Main.module.scss";
 import Image from "next/image";
 import ReadMore from "../../components/ReadMore";
-import data from "../../data/cat-wiki.json";
+import data from "../../data/work/cat-wiki.json";
 
 export default function CatWiki() {
   return (
@@ -15,32 +15,33 @@ export default function CatWiki() {
       <div className={styles.gallery}>
         <div className={styles.cover}>
           <Image
-            src="/case-study/three.jpeg"
+            src="/case-study/cat-wiki.jpg"
             alt="Picture of the author"
             placeholder="blur"
-            blurDataURL="/case-study/three.jpeg"
+            blurDataURL="/case-study/cat-wiki.jpg"
             width={400}
-            height={200}
+            height={300}
             layout="responsive"
           />
         </div>
         <Image
-          src="/case-study/one.png"
+          src="/case-study/cw-one.jpg"
           alt="Picture of the author"
           placeholder="blur"
-          blurDataURL="/case-study/one.png"
-          width={400}
-          height={400}
+          blurDataURL="/case-study/cat-wiki-one.png"
+          width={200}
+          height={200}
           layout="responsive"
         />
         <Image
-          src="/case-study/two.png"
+          src="/case-study/cat-wiki-hero.png"
           alt="Picture of the author"
           placeholder="blur"
           blurDataURL="/case-study/two.png"
-          width={400}
-          height={400}
+          width={200}
+          height={200}
           layout="responsive"
+          objectFit="contain"
         />
       </div>
       <ReadMore readMore={data[3]} />
