@@ -13,7 +13,7 @@ export default function Meno() {
         <div className={styles.cover}>
           <Image
             src="/case-study/meno.jpg"
-            alt="Picture of the author"
+            alt="Phone and the laptop on the table showing look of the website"
             placeholder="blur"
             blurDataURL="/case-study/meno.jpg"
             width={400}
@@ -23,7 +23,7 @@ export default function Meno() {
         </div>
         <Image
           src="/case-study/meno-one.jpg"
-          alt="Picture of the author"
+          alt="Phone showing menu and the drinks section"
           placeholder="blur"
           blurDataURL="/case-study/meno-one.jpg"
           width={400}
@@ -32,7 +32,7 @@ export default function Meno() {
         />
         <Image
           src="/case-study/meno-two.jpg"
-          alt="Picture of the author"
+          alt="Phone showing menu and the wraps section with a catering service video bellow it"
           placeholder="blur"
           blurDataURL="/case-study/meno-two.jpg"
           width={400}

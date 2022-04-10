@@ -13,7 +13,7 @@ const ReadMore = ({ readMore }) => {
         <div className={styles.readMoreImage}>
           <Image
             src={readMore.imageUrl}
-            alt="Picture of the author"
+            alt="Project photo"
             placeholder="blur"
             blurDataURL={readMore.imageUrl}
             width={300}

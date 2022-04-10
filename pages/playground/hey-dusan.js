@@ -14,7 +14,7 @@ export default function HeyDusan() {
       <div className={styles.imageWrapper}>
         <Image
           src="/playground/hd1.jpg"
-          alt="Picture of the author"
+          alt="Two tablets showing different sections of the website"
           placeholder="blur"
           blurDataURL="/playground/hd1.jpg"
           width={150}

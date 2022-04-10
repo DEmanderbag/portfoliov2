@@ -10,7 +10,7 @@ const Poster = () => {
       {data.map((poster) => (
         <article key={poster.path} className={styles.posterCard}>
           <div className={styles.wrapper}>
-            <h2 className={styles.title}>{poster.title}</h2>
+            <h4 className={`h3 ${styles.title}`}>{poster.title}</h4>
             <p className={styles.info}>{poster.info}</p>
             <Link href={poster.path}>
               <a>

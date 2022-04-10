@@ -19,7 +19,7 @@ const FeatureCard = ({ devResources }) => {
             <div className={styles.logoContainer}>
               <Image
                 src={`${resource.logo}`}
-                alt=""
+                alt="webpage logo"
                 layout="fill"
                 objectFit="contain"
                 placeholder="blur"

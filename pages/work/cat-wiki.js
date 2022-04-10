@@ -16,7 +16,7 @@ export default function CatWiki() {
         <div className={styles.cover}>
           <Image
             src="/case-study/cat-wiki.jpg"
-            alt="Picture of the author"
+            alt="Phone and the laptop on the table showing look of the website"
             placeholder="blur"
             blurDataURL="/case-study/cat-wiki.jpg"
             width={400}
@@ -26,7 +26,7 @@ export default function CatWiki() {
         </div>
         <Image
           src="/case-study/cw-one.jpg"
-          alt="Picture of the author"
+          alt="Phone that is on the table next to the laptop with the website open"
           placeholder="blur"
           blurDataURL="/case-study/cat-wiki-one.png"
           width={200}
@@ -35,7 +35,7 @@ export default function CatWiki() {
         />
         <Image
           src="/case-study/cat-wiki-hero.png"
-          alt="Picture of the author"
+          alt="Phone showing how the homepage of the website looks like"
           placeholder="blur"
           blurDataURL="/case-study/two.png"
           width={200}

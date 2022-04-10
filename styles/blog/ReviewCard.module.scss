@@ -5,7 +5,7 @@
   padding: var(--size-4);
   border-radius: var(--radius-2);
   background-color: var(--color-2);
-  color: var(--color-2-text);
+  color: var(--primary-text);
   .content {
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
     }
     .description,
     .moduleSec {
-      color: var(--color-2-text);
+      color: var(--primary-text);
       opacity: 0.75;
       font-weight: 600;
       line-height: 1;

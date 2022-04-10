@@ -21,10 +21,6 @@
       "path": "/playground"
     },
     {
-      "name": "Travelouge",
-      "path": "/blog"
-    },
-    {
       "name": "Bookmarks",
       "path": "/bookmarks"
     },
@@ -36,19 +32,15 @@
   [
     {
       "name": "Twitter",
-      "path": "/about"
+      "path": "https://twitter.com/demanderbag_"
     },
     {
       "name": "Github",
-      "path": "/about"
+      "path": "https://github.com/DEmanderbag"
     },
     {
       "name": "Linkedin",
-      "path": "/about"
-    },
-    {
-      "name": "Instagram",
-      "path": "/about"
+      "path": "https://www.linkedin.com/in/dusan-milosevic/"
     }
   ]
 ]

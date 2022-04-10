@@ -18,7 +18,7 @@ export default function About() {
           <a href="https://github.com/DEmanderbag">Github</a>.
         </p>
         <p>
-          Some stuff that make me excited are CSS, UI Animation, Angular, React
+          Some stuff that makes me excited are CSS, UI Animation, Angular, React
           and delightful interfaces.
         </p>
         <p>
@@ -49,7 +49,7 @@ export default function About() {
           Contact me
         </a>
       </div>
-      <List listItems={data[1]} />
+      {/* <List listItems={data[1]} /> */}
     </section>
   );
 }

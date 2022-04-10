@@ -15,7 +15,7 @@ export default function AdviceGeneratorApp() {
       <div className={styles.imageWrapper}>
         <Image
           src="/playground/aga1.jpg"
-          alt="Picture of the author"
+          alt="Two phones next to each other with advice showing on the screen, left one has advice 'When in doubt, just take the next small step.' and on the right 'Don't promies what you can't deliver.' message."
           placeholder="blur"
           blurDataURL="/playground/aga1.jpg"
           width={200}

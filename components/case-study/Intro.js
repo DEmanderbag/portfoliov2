@@ -58,6 +58,8 @@ const Intro = ({ hero }) => {
               alt="test image"
               layout="fill"
               objectFit="cover"
+              placeholder="blur"
+              blurDataURL={`/${hero.coverImage}`}
               priority
             />
           </div>

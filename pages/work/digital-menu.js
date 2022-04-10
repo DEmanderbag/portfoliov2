@@ -15,7 +15,7 @@ export default function DigitalMenu() {
       <div className={styles.gallery}>
         <Image
           src="/case-study/dm-one.jpg"
-          alt="Picture of the author"
+          alt="Two phones showing how to aplication and the menu look like"
           placeholder="blur"
           blurDataURL="/case-study/mb-two.jpg"
           width={400}
@@ -24,7 +24,7 @@ export default function DigitalMenu() {
         />
         <Image
           src="/case-study/dm-two.jpg"
-          alt="Picture of the author"
+          alt="Three phones showing how to aplication and the menu look like"
           placeholder="blur"
           blurDataURL="/case-study/dm-two.jpg"
           width={400}

@@ -16,7 +16,7 @@ export default function MarkdownBlog() {
         <div className={styles.cover}>
           <Image
             src="/case-study/mb-one.jpg"
-            alt="Picture of the author"
+            alt="Multiple phones showing diffrent part of the blog"
             placeholder="blur"
             blurDataURL="/case-study/mb-one.jpg"
             width={400}
@@ -26,7 +26,7 @@ export default function MarkdownBlog() {
         </div>
         <Image
           src="/case-study/mb-two.jpg"
-          alt="Picture of the author"
+          alt="Two phones showing diffrent articles in two different languages"
           placeholder="blur"
           blurDataURL="/case-study/mb-two.jpg"
           width={400}
@@ -35,7 +35,7 @@ export default function MarkdownBlog() {
         />
         <Image
           src="/case-study/mb-three.jpg"
-          alt="Picture of the author"
+          alt="Two tablet showing diffrent article with the title of language support"
           placeholder="blur"
           blurDataURL="/case-study/mb-three.jpg"
           width={400}
