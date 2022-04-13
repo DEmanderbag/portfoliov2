@@ -9,7 +9,7 @@
       "subtitle": "But it doesn’t have to be. Explore this friendly web development tutorial for complete beginners.",
       "website": "https://www.internetingishard.com/",
       "websiteShort": "internetingishard.com",
-      "logo": "/featured-bookmark/internetIsHardlogo.svg",
+      "logo": "/bookmarks/internetIsHardlogo.svg",
       "tag": "Tutorial"
     },
     {
@@ -17,7 +17,7 @@
       "subtitle": "Comprehensive guide to CSS flexbox. This complete guide explains everything about flexbox, focusing on all the different possible properties for the parent element and the child elements.",
       "website": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
       "websiteShort": "css-tricks.com",
-      "logo": "/featured-bookmark/css-tricks.svg",
+      "logo": "/bookmarks/css-tricks.svg",
       "tag": "Guide"
     },
     {
@@ -25,7 +25,7 @@
       "subtitle": "Comprehensive guide to CSS grid, focusing on all the settings both for the grid parent container and the grid child elements.",
       "website": "https://css-tricks.com/snippets/css/complete-guide-grid/",
       "websiteShort": "css-tricks.com",
-      "logo": "/featured-bookmark/css-tricks.svg",
+      "logo": "/bookmarks/css-tricks.svg",
       "tag": "Guide"
     },
     {
@@ -33,7 +33,7 @@
       "subtitle": "MDN Web Docs, previously Mozilla Developer Network and formerly Mozilla Developer Center, is a documentation repository and learning resource for web developers used by Mozilla, Microsoft, Google, and Samsung.",
       "website": "https://developer.mozilla.org/en-US/docs/Web",
       "websiteShort": "developer.mozilla.org",
-      "logo": "/featured-bookmark/mdn.svg",
+      "logo": "/bookmarks/mdn.svg",
       "tag": "Learning platform"
     },
     {
@@ -41,7 +41,7 @@
       "subtitle": "Explore structured learning paths to discover everything you need to know about building for the modern web.",
       "website": "https://web.dev/learn/",
       "websiteShort": "web.dev",
-      "logo": "/featured-bookmark/web-dev.svg",
+      "logo": "/bookmarks/web-dev.svg",
       "tag": "Guide"
     },
     {
@@ -49,7 +49,7 @@
       "subtitle": "A comprehensive interactive course designed to change your relationship with CSS. We'll learn how the language really works, and empower you to build robust user interfaces.",
       "website": "https://css-for-js.dev/",
       "websiteShort": "css-for-js.dev",
-      "logo": "/featured-bookmark/cssForJslogo.png",
+      "logo": "/bookmarks/cssForJslogo.png",
       "tag": "Learning platform"
     },
     {
@@ -57,7 +57,7 @@
       "subtitle": "Improve your front-end coding skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs. Join over 308.000+ developers building projects, reviewing code, and helping each other get better.",
       "website": "https://www.frontendmentor.io/",
       "websiteShort": "frontendmentor.io",
-      "logo": "/featured-bookmark/frontend-mentorl-logo.svg",
+      "logo": "/bookmarks/frontend-mentorl-logo.svg",
       "tag": "Learning platform"
     },
     {
@@ -65,7 +65,7 @@
       "subtitle": "The best way to learn is by doing. Choose a challenge, Work by yourself or with a team, Submit your solutions and give feedback",
       "website": "https://devchallenges.io/",
       "websiteShort": "devchallenges.io",
-      "logo": "/featured-bookmark/devchallenges.svg",
+      "logo": "/bookmarks/devchallenges.svg",
       "tag": "Learning platform"
     }
   ],
