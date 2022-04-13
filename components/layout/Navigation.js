@@ -19,10 +19,6 @@ const navigationData = [
     linkLabel: "Bookmarks",
     path: "/bookmarks",
   },
-  // {
-  //   linkLabel: "Travelogue",
-  //   path: "/blog",
-  // },
 ];
 
 const Navigation = () => {

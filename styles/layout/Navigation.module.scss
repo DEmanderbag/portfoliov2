@@ -22,10 +22,12 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: var(--size-5);
     list-style: none;
     font-weight: 600;
     font-size: 1.125rem;
+    li:not(:last-child) {
+      margin-right: var(--size-5);
+    }
   }
 }
 @include respond-below(tablet) {
@@ -39,11 +41,13 @@
       z-index: 1000;
       flex-direction: column;
       padding: min(20vh, 10rem) var(--size-5);
-      background: hsl(0, 0%, 0%);
+      background: var(--color-2);
       transform: translateX(100%);
       will-change: transform;
       transition: transform 350ms ease-out;
-      color: #ffffff;
+      li:not(:last-child) {
+        margin-bottom: var(--size-5);
+      }
       a {
         font-size: 32px;
       }
@@ -73,9 +77,6 @@
         }
       }
       .open {
-        .bar {
-          background-color: #ffffff;
-        }
         .bar:nth-child(1) {
           transform: rotate(-45deg) translateX(4px);
         }
