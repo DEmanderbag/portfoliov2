@@ -9,7 +9,7 @@
       "subtitle": "But it doesn’t have to be. Explore this friendly web development tutorial for complete beginners.",
       "website": "https://www.internetingishard.com/",
       "websiteShort": "internetingishard.com",
-      "logo": "/bookmarks/internetIsHardlogo.svg",
+      "logo": "/bookmarks/internetIsHardLogo.svg",
       "tag": "Tutorial"
     },
     {
@@ -49,7 +49,7 @@
       "subtitle": "A comprehensive interactive course designed to change your relationship with CSS. We'll learn how the language really works, and empower you to build robust user interfaces.",
       "website": "https://css-for-js.dev/",
       "websiteShort": "css-for-js.dev",
-      "logo": "/bookmarks/cssForJslogo.png",
+      "logo": "/bookmarks/cssForJsLogo.png",
       "tag": "Learning platform"
     },
     {
@@ -76,7 +76,7 @@
       "website": "https://developer.apple.com/videos/play/wwdc2018/803/",
       "websiteShort": "developer.apple.com",
       "tag": "Video",
-      "tagColor": "#EC5555"
+      "tagColor": "#c94848"
     },
     {
       "title": "Design for spatial interaction",
@@ -84,7 +84,7 @@
       "website": "https://developer.apple.com/videos/play/wwdc2021/10245/",
       "websiteShort": "developer.apple.com",
       "tag": "Video",
-      "tagColor": "#EC5555"
+      "tagColor": "#c94848"
     },
     {
       "title": "Parks of Croatia - visual identity",
@@ -92,7 +92,7 @@
       "website": "https://vimeo.com/200950283",
       "websiteShort": "",
       "tag": "Video",
-      "tagColor": "#EC5555"
+      "tagColor": "#c94848"
     },
     {
       "title": "Introduction to Git",
@@ -100,7 +100,7 @@
       "website": "https://www.notion.so/zarkom/Introduction-to-Git-ac396a0697704709a12b6a0e545db049",
       "websiteShort": "",
       "tag": "Article",
-      "tagColor": "#22B07D"
+      "tagColor": "#18865f"
     },
     {
       "title": "Introduction to GitHub",
@@ -108,7 +108,7 @@
       "website": "https://www.notion.so/zarkom/Introduction-to-GitHub-202af6f64bbd4299b15f238dcd09d2a7",
       "websiteShort": "",
       "tag": "Article",
-      "tagColor": "#22B07D"
+      "tagColor": "#18865f"
     },
     {
       "title": "How to Write a Git Commit Message",
@@ -116,7 +116,7 @@
       "website": "https://cbea.ms/git-commit/",
       "websiteShort": "cbea.ms/git-commit",
       "tag": "Article",
-      "tagColor": "#22B07D"
+      "tagColor": "#18865f"
     },
     {
       "title": "racOS",
@@ -124,7 +124,7 @@
       "website": "https://rac.fm/",
       "websiteShort": "rac.fm",
       "tag": "Portoflio",
-      "tagColor": "#B841F0"
+      "tagColor": "#9736c5"
     },
     {
       "title": "Open Doodles",
@@ -140,7 +140,7 @@
       "website": "https://twitter.com/i/events/994601867987619840",
       "websiteShort": "",
       "tag": "Article",
-      "tagColor": "#22B07D"
+      "tagColor": "#18865f"
     },
     {
       "title": "Common webpage design mistakes",
@@ -148,7 +148,7 @@
       "website": "https://uxplanet.org/common-webpage-design-mistakes-59eed9831bd7",
       "websiteShort": "uxplanet.org",
       "tag": "Article",
-      "tagColor": "#22B07D"
+      "tagColor": "#18865f"
     },
     {
       "title": "99% Invisible",
@@ -156,7 +156,7 @@
       "website": "https://99percentinvisible.org/",
       "websiteShort": "99percentinvisible.org",
       "tag": "Podcast",
-      "tagColor": "#FF9B25"
+      "tagColor": "#a96414"
     },
     {
       "title": "Colt Steele",
@@ -164,7 +164,7 @@
       "website": "https://www.youtube.com/c/ColtSteeleCode",
       "websiteShort": "youtube.com/c/ColtSteeleCode",
       "tag": "YouTube",
-      "tagColor": "#EC5555"
+      "tagColor": "#c94848"
     },
     {
       "title": "Traversy Media",
@@ -172,7 +172,7 @@
       "website": "https://www.youtube.com/c/TraversyMedia/",
       "websiteShort": "youtube.com/c/TraversyMedia",
       "tag": "YouTube",
-      "tagColor": "#EC5555"
+      "tagColor": "#c94848"
     },
     {
       "title": "3%",
@@ -180,7 +180,7 @@
       "website": "https://mar.svbtle.com/3",
       "websiteShort": "mar.svbtle.com/3",
       "tag": "Article",
-      "tagColor": "#22B07D"
+      "tagColor": "#18865f"
     },
     {
       "title": "Brian Lovin",
@@ -188,7 +188,7 @@
       "website": "https://brianlovin.com/",
       "websiteShort": "brianlovin.com",
       "tag": "Portfolio",
-      "tagColor": "#B841F0"
+      "tagColor": "#9736c5"
     },
     {
       "title": "Rauno Freiberg",
@@ -196,7 +196,7 @@
       "website": "https://rauno.me/",
       "websiteShort": "rauno.me",
       "tag": "Portfolio",
-      "tagColor": "#B841F0"
+      "tagColor": "#9736c5"
     },
     {
       "title": "Ouch",
@@ -260,7 +260,7 @@
       "website": "https://www.redhat.com/en/command-line-heroes",
       "websiteShort": "redhat.com/en/command-line-heroes",
       "tag": "Podcast",
-      "tagColor": "#FF9B25"
+      "tagColor": "#a96414"
     },
     {
       "title": "Cortex",
@@ -268,7 +268,7 @@
       "website": "https://www.relay.fm/cortex",
       "websiteShort": "relay.fm/cortex",
       "tag": "Podcast",
-      "tagColor": "#FF9B25"
+      "tagColor": "#a96414"
     },
     {
       "title": "Kevin Powell",
@@ -276,7 +276,7 @@
       "website": "https://www.youtube.com/kepowob",
       "websiteShort": "youtube.com/kepowob",
       "tag": "YouTube",
-      "tagColor": "#EC5555"
+      "tagColor": "#c94848"
     },
     {
       "title": "Jake Wright",
@@ -284,7 +284,7 @@
       "website": "https://www.youtube.com/c/JakewrightNet/",
       "websiteShort": "youtube.com/c/JakewrightNet",
       "tag": "YouTube",
-      "tagColor": "#EC5555"
+      "tagColor": "#c94848"
     },
     {
       "title": "Skillthrive",
@@ -292,7 +292,7 @@
       "website": "https://www.youtube.com/c/Skillthrive/",
       "websiteShort": "youtube.com/c/Skillthrive",
       "tag": "YouTube",
-      "tagColor": "#EC5555"
+      "tagColor": "#c94848"
     },
     {
       "title": "LEMMiNO",
@@ -300,7 +300,7 @@
       "website": "https://www.youtube.com/c/LEMMiNO/",
       "websiteShort": "youtube.com/c/LEMMiNO",
       "tag": "YouTube",
-      "tagColor": "#EC5555"
+      "tagColor": "#c94848"
     },
     {
       "title": "FLEXBOX FROGGY",
@@ -308,7 +308,7 @@
       "website": "https://flexboxfroggy.com/",
       "websiteShort": "flexboxfroggy.com",
       "tag": "Games",
-      "tagColor": "#367d72"
+      "tagColor": "#24689a"
     },
     {
       "title": "GRID GARDEN",
@@ -316,7 +316,7 @@
       "website": "https://cssgridgarden.com/",
       "websiteShort": "cssgridgarden.com",
       "tag": "Games",
-      "tagColor": "#367d72"
+      "tagColor": "#24689a"
     },
     {
       "title": "Flex Box Adventure",
@@ -324,7 +324,7 @@
       "website": "https://codingfantasy.com/games/flexboxadventure",
       "websiteShort": "codingfantasy.com/games/flexboxadventure",
       "tag": "Games",
-      "tagColor": "#367d72"
+      "tagColor": "#24689a"
     },
     {
       "title": "Grid Attack",
@@ -332,7 +332,7 @@
       "website": "https://codingfantasy.com/games/css-grid-attack",
       "websiteShort": "codingfantasy.com/games/css-grid-attack",
       "tag": "Games",
-      "tagColor": "#367d72"
+      "tagColor": "#24689a"
     },
     {
       "title": "yare.io",
@@ -340,7 +340,7 @@
       "website": "https://yare.io/",
       "websiteShort": "yare.io",
       "tag": "Games",
-      "tagColor": "#367d72"
+      "tagColor": "#24689a"
     }
   ]
 ]

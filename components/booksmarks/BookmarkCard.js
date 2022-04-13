@@ -49,7 +49,7 @@ const BookmarkCard = ({ devResources }) => {
               >
                 {resource.tag}
               </p>
-              <h4 className={styles.title}>{resource.title}</h4>
+              <h3 className={`h4 ${styles.title}`}>{resource.title}</h3>
               <p className={styles.source}>{resource.websiteShort}</p>
               <p>{resource.subtitle}</p>
             </div>
