@@ -45,6 +45,11 @@
   }
   &Link {
     border-bottom: 2px solid var(--color-2);
+    will-change: opacity;
+    transition: 0.2s ease-out opacity;
+    &:hover {
+      opacity: 75%;
+    }
   }
 }
 .actionButtons {

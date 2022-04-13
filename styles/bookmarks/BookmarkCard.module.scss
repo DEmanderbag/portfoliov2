@@ -13,18 +13,17 @@
     }
   }
   .tag {
-    border-radius: var(--radius-2);
-    border-radius: 20px;
+    border-radius: var(--radius-4);
     max-width: fit-content;
     padding: var(--size-1) var(--size-3);
-    margin-bottom: var(--size-1);
-    font-size: 14px;
+    margin-bottom: var(--size-2);
+    font-size: 0.875rem;
     font-weight: 600;
     color: white;
     text-transform: capitalize;
   }
   .source {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     margin-bottom: var(--size-2);
     opacity: 75%;
@@ -33,7 +32,7 @@
     max-width: 45ch;
     .title {
       line-height: 1;
-      margin-bottom: var(--size-1);
+      margin-bottom: var(--size-2);
       font-weight: 600;
     }
   }

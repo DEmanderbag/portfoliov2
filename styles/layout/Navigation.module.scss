@@ -59,9 +59,9 @@
       display: block;
       position: absolute;
       z-index: 9999;
-      right: var(--size-5);
+      right: 0;
       background: none;
-      padding: var(--size-5) 0;
+      padding: var(--size-5);
       .group {
         position: relative;
         .bar {
