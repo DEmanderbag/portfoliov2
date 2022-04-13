@@ -77,7 +77,7 @@ export default function LinksPage() {
             />
           </div>
           <p>
-            I&apos;m a Frontend developer working in the medical field and
+            I&apos;m a Front End developer working in the medical field and
             currently living in Antwerp Belgium. My development stack is focused
             on performance and accessibility, while using latest technology.
           </p>
