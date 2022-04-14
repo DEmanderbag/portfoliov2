@@ -10,7 +10,7 @@ const About = () => {
         <p>
           Front End developer working in the medical field and currently living
           in Antwerp Belgium. My development stack is focused on performance and
-          accessibility, while using latest technology.
+          accessibility while using the latest technology.
         </p>
       </div>
     </section>

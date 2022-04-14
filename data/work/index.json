@@ -13,7 +13,7 @@
       "Markdown",
       "Light / Dark mode"
     ],
-    "coverPhoto": "/case-study/mb-hero.png",
+    "coverPhoto": "/case-study/mb-two.jpg",
     "background": "#e6ecf2",
     "tagsBackground": "rgba(46, 62, 77, 0.1)"
   },
@@ -30,7 +30,7 @@
       "CSS Modules",
       "Web"
     ],
-    "coverPhoto": "/case-study/cat-wiki-hero.png",
+    "coverPhoto": "/case-study/cat-wiki-hero.jpg",
     "background": "#E3E1DC",
     "tagsBackground": "rgba(187, 131, 47, .1)"
   },
@@ -47,7 +47,7 @@
       "Multi language support",
       "Offline support"
     ],
-    "coverPhoto": "/case-study/digital-menu.png",
+    "coverPhoto": "/case-study/digital-menu.jpg",
     "background": "#cab6a0",
     "tagsBackground": "rgba(46, 77, 66, 0.1)"
   },
@@ -57,7 +57,7 @@
     "name": "Meno",
     "description": "Meno is a modern, fast and responsive website for your coffee shop or restaurant.",
     "tags": ["Next.js", "CSS Modules", "Reponsive", "Optimized"],
-    "coverPhoto": "/case-study/meno-hero.png",
+    "coverPhoto": "/case-study/meno-hero.jpg",
     "background": "#ffebd6",
     "tagsBackground": "rgba(187, 131, 47, .1)"
   }

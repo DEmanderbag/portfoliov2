@@ -3,7 +3,7 @@
     "name": "Markdown blog",
     "field": "Personal project",
     "intro": "Modern, lightweight theme with a typography-focused design. Powered by Markdown and Next.js.",
-    "coverImage": "case-study/mb-hero.png",
+    "coverImage": "case-study/mb-two.jpg",
     "isCV": false,
     "codeLink": "https://github.com/DEmanderbag",
     "websiteLink": "https://minimal-blog-ten.vercel.app/",

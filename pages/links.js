@@ -79,7 +79,7 @@ export default function LinksPage() {
           <p>
             I&apos;m a Front End developer working in the medical field and
             currently living in Antwerp Belgium. My development stack is focused
-            on performance and accessibility, while using latest technology.
+            on performance and accessibility while using the latest technology.
           </p>
         </div>
         <div>

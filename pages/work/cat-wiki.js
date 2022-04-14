@@ -71,11 +71,10 @@ export default function CatWiki() {
             src="/case-study/cat-wiki-hero.png"
             alt="Phone showing how the homepage of the website looks like"
             placeholder="blur"
-            blurDataURL="/case-study/two.png"
+            blurDataURL="/case-study/cat-wiki-hero.png"
             width={200}
             height={200}
             layout="responsive"
-            objectFit="contain"
           />
         </div>
         <TextBlock textData={data[3]} />
