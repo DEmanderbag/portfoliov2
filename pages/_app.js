@@ -16,8 +16,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Script
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID}`}
         strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-9LDFCJ836Y"
       />
 
       <Script id="google-analytics" strategy="afterInteractive">
@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-9LDFCJ836Y');
+        gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
     `}
       </Script>
       <Layout>

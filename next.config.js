@@ -4,4 +4,7 @@ module.exports = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  env: {
+    GOOGLE_ANALYTICS_ID: "G-02WNJDNKZC",
+  },
 };
