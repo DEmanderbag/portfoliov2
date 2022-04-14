@@ -7,13 +7,13 @@
     {
       "date": "9 April, 2021",
       "title": "Advice generator App",
-      "about": "Small project that is using 3rd-party API, Advice Slip API is used to generate random quotes of advice.",
+      "about": "A small project that uses a 3rd-party API, Advice Slip API is used to generate random quotes of advice.",
       "url": "advice-generator-app"
     },
     {
       "date": "26 March, 2021",
       "title": "HeyDusan.com",
-      "about": "Personal porfolio website, that helped me get my first job",
+      "about": "Simple, fast, responsive and efficient portfolio website with a perfect Lighthouse score",
       "url": "hey-dusan"
     }
   ]

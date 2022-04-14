@@ -20,7 +20,7 @@ const Poster = () => {
           </div>
           <Image
             src={`${poster.image}`}
-            alt="Picture of the author"
+            alt="Picture of a laptop screen"
             placeholder="blur"
             blurDataURL={`${poster.image}`}
             layout="fill"

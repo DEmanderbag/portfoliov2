@@ -1,7 +1,7 @@
 [
   {
     "name": "Advice generator app",
-    "intro": "Small project that is using Advice Slip API to generate random quotes of advice.",
+    "intro": "A small project that uses a 3rd-party API, Advice Slip API is used to generate random quotes of advice.",
     "coverImage": "playground/advice-app.jpg",
     "isCV": false,
     "cvLink": "",

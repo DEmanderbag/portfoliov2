@@ -16,16 +16,15 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_ID}`}
         strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-02WNJDNKZC"
       />
-
       <Script id="google-analytics" strategy="afterInteractive">
         {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
+        gtag('config', 'G-02WNJDNKZC');
     `}
       </Script>
       <Layout>
