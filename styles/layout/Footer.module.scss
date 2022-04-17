@@ -6,6 +6,10 @@
   .wrapper {
     max-width: 1140px;
     margin: 0 auto;
+    @include respond-above(laptop) {
+      display: grid;
+      grid-template-columns: 1fr 0.5fr 0.5fr;
+    }
   }
   .contact {
     font-weight: 700;
@@ -18,11 +22,25 @@
 .separator {
   border-bottom: 1px solid rgb(221, 221, 221);
   margin: var(--size-4) 0;
+  @include respond-above(laptop) {
+    border-bottom: unset;
+    margin: unset;
+  }
 }
 .bold {
   font-weight: 700;
   margin-bottom: var(--size-2);
 }
-.links > li {
-  margin-bottom: var(--size-2);
+.links {
+  margin-left: auto;
+  & > li {
+    margin-bottom: var(--size-3);
+  }
+}
+@media (hover: hover) {
+  .link {
+    &:hover {
+      opacity: 80%;
+    }
+  }
 }

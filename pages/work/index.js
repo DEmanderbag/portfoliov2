@@ -1,4 +1,4 @@
-import styles from "../../styles/Work.module.scss";
+import styles from "../../styles/case-study/Work.module.scss";
 import Project from "../../components/Project";
 import IntroText from "../../components/IntroText";
 import index from "../../data/work/index.json";

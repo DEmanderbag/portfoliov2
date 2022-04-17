@@ -17,7 +17,7 @@ const Footer = () => {
             {data[1].map((website) => (
               <li key={website.name}>
                 <Link href={website.path}>
-                  <a className={styles.test}>{website.name}</a>
+                  <a className={styles.link}>{website.name}</a>
                 </Link>
               </li>
             ))}
@@ -29,7 +29,7 @@ const Footer = () => {
           <ul className={styles.links}>
             {data[2].map((social) => (
               <li key={social.name}>
-                <a href={social.path} className={styles.test}>
+                <a href={social.path} className={styles.link}>
                   {social.name}
                 </a>
               </li>
