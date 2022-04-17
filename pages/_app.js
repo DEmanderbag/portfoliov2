@@ -14,6 +14,12 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:site" content="@demanderbag_" />
         <meta name="twitter:creator" content="@demanderbag_" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="robots" content="index,follow" />
+        <meta name="googlebot" content="index,follow" />
+        <meta
+          name="keywords"
+          content="dusan, milosevic, developer, front end, portfolio, front-end"
+        />
       </Head>
       <Script
         strategy="afterInteractive"
@@ -21,11 +27,11 @@ function MyApp({ Component, pageProps }) {
       />
       <Script id="google-analytics" strategy="afterInteractive">
         {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-02WNJDNKZC');
-    `}
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-02WNJDNKZC');
+        `}
       </Script>
       <Layout>
         <Component {...pageProps} />

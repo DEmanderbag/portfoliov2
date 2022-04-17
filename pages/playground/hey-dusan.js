@@ -24,16 +24,22 @@ export default function HeyDusan() {
           content={`${data[0].name} | Dusan Milosevic`}
         />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content="https://www.dusan.codes/playground/hey-dusan" />
-        <meta property="og:image" content="/playground/hey-dusan.jpg" />
+        <meta
+          property="og:url"
+          content="https://www.dusan.codes/playground/hey-dusan"
+        />
+        <meta property="og:image" content="/playground/hey-dusan.jpeg" />
         {/* Twitter */}
         <meta
           name="twitter:title"
           content={`${data[0].name} | Dusan Milosevic`}
         />
         <meta name="twitter:description" content={data[0].intro} />
-        <meta name="twitter:url" content="https://www.dusan.codes/playground/hey-dusan" />
-        <meta name="twitter:image" content="/playground/hey-dusan.jpg" />
+        <meta
+          name="twitter:url"
+          content="https://www.dusan.codes/playground/hey-dusan"
+        />
+        <meta name="twitter:image" content="/playground/hey-dusan.jpeg" />
       </Head>
       <main>
         <Intro hero={data[0]} />
@@ -41,10 +47,10 @@ export default function HeyDusan() {
         <List listItems={data[2]} />
         <div className={styles.imageWrapper}>
           <Image
-            src="/playground/hd1.jpg"
+            src="/playground/hd1.jpeg"
             alt="Two tablets showing different sections of the website"
             placeholder="blur"
-            blurDataURL="/playground/hd1.jpg"
+            blurDataURL="/playground/hd1.jpeg"
             width={150}
             height={100}
             layout="responsive"

@@ -29,7 +29,7 @@
   },
   {
     "sectionTitle": "Next playground article",
-    "imageUrl": "/playground/hey-dusan.jpg",
+    "imageUrl": "/playground/hey-dusan.jpeg",
     "name": "HeyDusan",
     "description": "HeyDusan is first version of my portfolio webside that is created with HTML/CSS and little bit of JS. Website is fast and reponsive with perfect score on Lighthouse.",
     "actionLabel": "Read more →",
