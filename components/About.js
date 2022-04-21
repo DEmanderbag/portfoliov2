@@ -8,9 +8,9 @@ const About = () => {
           <h1 className={`h2 ${styles.title}`}>Hi, I&apos;m Dusan! 👋</h1>
         </div>
         <p>
-          Front End developer working in the medical field and currently living
-          in Antwerp Belgium. My development stack is focused on performance and
-          accessibility while using the latest technology.
+          Front End Developer who likes solving problems with design and code.
+          My development stack is focused on performance and accessibility while
+          using the latest technology.
         </p>
       </div>
     </section>
