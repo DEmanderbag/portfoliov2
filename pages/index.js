@@ -30,10 +30,7 @@ export default function Home() {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.dusan.codes/" />
-        {/* <meta
-          property="og:image"
-          content=""
-        /> */}
+        <meta property="og:image" content="/DusanMilosevic.jpeg" />
         {/* Twitter */}
         <meta
           name="twitter:title"
@@ -44,10 +41,7 @@ export default function Home() {
           content="Dusan Milosevic is a Front-End Developer who likes solving problems with design and code."
         />
         <meta name="twitter:url" content="https://www.dusan.codes/" />
-        {/* <meta
-          name="twitter:image"
-          content=""
-        /> */}
+        <meta name="twitter:image" content="/DusanMilosevic.jpeg" />
       </Head>
       <main className={styles.main}>
         <About />
