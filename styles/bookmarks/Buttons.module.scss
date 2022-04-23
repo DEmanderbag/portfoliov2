@@ -1,0 +1,25 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: var(--size-4);
+}
+.tag {
+  border-radius: var(--radius-4);
+  max-width: fit-content;
+  padding: var(--size-1) var(--size-3);
+  margin-right: var(--size-1);
+  margin-bottom: var(--size-2);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary-text);
+  background-color: transparent;
+  text-transform: capitalize;
+  display: inline-block;
+  will-change: opacity;
+  background-color: var(--color-2);
+  @media (hover: hover) {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

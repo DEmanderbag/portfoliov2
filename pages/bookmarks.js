@@ -4,7 +4,18 @@ import BookmarkCard from "../components/booksmarks/BookmarkCard";
 import IntroText from "../components/IntroText";
 import data from "../data/bookmarks.json";
 import Head from "next/head";
+import { useState } from "react";
+import Buttons from "../components/booksmarks/Buttons";
+
 export default function Bookmarks() {
+  const [bookmarkCard, setBookmarkCard] = useState(data[2]);
+  const tags = [...new Set(data[2].map((val) => val.tag))];
+  const filterTags = (curcat) => {
+    const newTag = data[2].filter((newVal) => {
+      return newVal.tag === curcat;
+    });
+    setBookmarkCard(newTag);
+  };
   return (
     <>
       <Head>
@@ -52,8 +63,13 @@ export default function Bookmarks() {
               Things that I found interesting and stuff that other people deemed
               interesting enough to link me 🙂
             </p>
+            <Buttons
+              setBookmarkCard={setBookmarkCard}
+              tags={tags}
+              filterTags={filterTags}
+            />
           </div>
-          <BookmarkCard devResources={data[2]} />
+          <BookmarkCard devResources={bookmarkCard} />
         </div>
       </main>
     </>
