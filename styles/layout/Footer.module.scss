@@ -1,4 +1,4 @@
-@import "../../styles/breakpoints";
+@use "../../styles/breakpoints";
 
 .footer {
   padding: var(--size-7) var(--size-4);
@@ -6,7 +6,7 @@
   .wrapper {
     max-width: 1140px;
     margin: 0 auto;
-    @include respond-above(laptop) {
+    @include breakpoints.respond-above(laptop) {
       display: grid;
       grid-template-columns: 1fr 0.5fr 0.5fr;
     }
@@ -22,7 +22,7 @@
 .separator {
   border-bottom: 1px solid rgb(221, 221, 221);
   margin: var(--size-4) 0;
-  @include respond-above(laptop) {
+  @include breakpoints.respond-above(laptop) {
     border-bottom: unset;
     margin: unset;
   }

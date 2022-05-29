@@ -1,4 +1,4 @@
-@import "../../styles/breakpoints";
+@use "../../styles/breakpoints";
 
 .poster {
   display: grid;
@@ -6,10 +6,10 @@
   gap: var(--size-4);
   padding-top: var(--space-1);
   padding-bottom: var(--space-1);
-  @include respond-above(tablet) {
+  @include breakpoints.respond-above(tablet) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  @include respond-above(laptop) {
+  @include breakpoints.respond-above(laptop) {
     gap: var(--size-3);
   }
   .title {
@@ -30,10 +30,10 @@
     span {
       z-index: -1;
     }
-    @include respond-above(smallTablet) {
+    @include breakpoints.respond-above(smallTablet) {
       height: 560px;
     }
-    @include respond-above(tablet) {
+    @include breakpoints.respond-above(tablet) {
       padding: var(--size-7);
       height: 550px;
     }
@@ -73,7 +73,7 @@
       font-size: 1.125rem;
       font-weight: 600;
       margin-bottom: var(--size-4);
-      @include respond-above(tablet) {
+      @include breakpoints.respond-above(tablet) {
         margin-bottom: auto;
       }
     }

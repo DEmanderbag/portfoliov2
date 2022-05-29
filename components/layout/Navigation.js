@@ -40,6 +40,7 @@ const Navigation = () => {
         </a>
       </Link>
       <button
+        type="button"
         onClick={toggle}
         aria-controls="navigation"
         aria-expanded={isOpen}

@@ -1,4 +1,4 @@
-@import "../../styles/breakpoints";
+@use "../../styles/breakpoints";
 
 .wrapper {
   padding-top: var(--space-1);
@@ -9,7 +9,7 @@
     padding-right: var(--size-4);
     max-width: 1140px;
     margin: 0 auto;
-    @include respond-above(max) {
+    @include breakpoints.respond-above(max) {
       padding-left: 0;
       padding-right: 0;
       max-width: 1140px;
@@ -74,7 +74,7 @@
   gap: 2px;
   padding-top: var(--space-1);
   padding-bottom: var(--space-1);
-  @include respond-above(tablet) {
+  @include breakpoints.respond-above(tablet) {
     grid-template-columns: repeat(2, 1fr);
     max-width: 1140px;
     margin: 0 auto;

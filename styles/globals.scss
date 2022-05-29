@@ -1,8 +1,7 @@
-@import "reset";
-@import "variables";
-@import "typography";
-@import "breakpoints";
-@import "grid";
+@use "reset";
+@use "variables";
+@use "typography";
+@use "breakpoints";
 
 @media (max-width: 35rem) {
   .overflowControl {
@@ -15,7 +14,7 @@
   padding-right: var(--size-4);
   max-width: 1140px;
   margin: 0 auto;
-  @include respond-above(max) {
+  @include breakpoints.respond-above(max) {
     padding-left: 0;
     padding-right: 0;
   }

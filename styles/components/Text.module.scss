@@ -1,4 +1,4 @@
-@import "../../styles/breakpoints";
+@use "../../styles/breakpoints";
 
 .textBlock {
   width: 100%;
@@ -10,12 +10,12 @@
   p {
     margin-bottom: var(--size-2);
   }
-  @include respond-above(tablet) {
+  @include breakpoints.respond-above(tablet) {
     width: 92%;
     margin: 0 auto;
     padding: var(--space-2) 0;
   }
-  @include respond-above(laptop) {
+  @include breakpoints.respond-above(laptop) {
     max-width: 42rem;
   }
 }

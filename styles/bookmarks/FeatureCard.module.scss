@@ -1,4 +1,4 @@
-@import "../../styles/breakpoints";
+@use "../../styles/breakpoints";
 
 .featuredCard {
   flex: 1 0 auto;
@@ -37,7 +37,7 @@
     margin: auto;
     margin-bottom: 0;
   }
-  @include respond-above(tablet) {
+  @include breakpoints.respond-above(tablet) {
     max-width: 400px;
     min-height: 500px;
   }

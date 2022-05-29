@@ -1,10 +1,10 @@
-@import "../../styles/breakpoints";
+@use "../../styles/breakpoints";
 
 .projectGrid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1px;
-  @include respond-above(tablet) {
+  @include breakpoints.respond-above(tablet) {
     padding-left: var(--size-4);
     padding-right: var(--size-4);
     grid-template-columns: repeat(2, 1fr);
@@ -29,7 +29,7 @@
       grid-row: 4 / 6;
     }
   }
-  @include respond-above(max) {
+  @include breakpoints.respond-above(max) {
     padding-left: 0;
     padding-right: 0;
   }
@@ -39,7 +39,7 @@
   opacity: 0;
   transition: transform ease 0.2s;
   transform: translateY(5px);
-  @include respond-above(tablet) {
+  @include breakpoints.respond-above(tablet) {
     border-radius: var(--radius-3);
   }
   @media (hover: hover) {
@@ -85,7 +85,7 @@
     position: relative;
     margin-top: auto;
     overflow: hidden;
-    @include respond-above(tablet) {
+    @include breakpoints.respond-above(tablet) {
       border-bottom-left-radius: var(--radius-3);
       border-bottom-right-radius: var(--radius-3);
     }

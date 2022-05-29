@@ -1,4 +1,4 @@
-@import "../breakpoints";
+@use "../breakpoints";
 
 .list {
   &Grid {
@@ -9,10 +9,10 @@
     margin-bottom: var(--space-1);
     padding-left: var(--size-4);
     padding-right: var(--size-4);
-    @include respond-above(tablet) {
+    @include breakpoints.respond-above(tablet) {
       grid-template-columns: repeat(2, 1fr);
     }
-    @include respond-above(laptop) {
+    @include breakpoints.respond-above(laptop) {
       padding-left: unset;
       padding-right: unset;
     }

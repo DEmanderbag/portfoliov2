@@ -1,4 +1,4 @@
-@import "breakpoints";
+@use "breakpoints";
 
 body {
   line-height: 1.5;
@@ -49,7 +49,7 @@ a {
   letter-spacing: -0.022em;
 }
 
-@include respond-below(smallPhone) {
+@include breakpoints.respond-below(smallPhone) {
   h1,
   .h1 {
     font-size: 2.75rem;

@@ -1,4 +1,4 @@
-@import "../breakpoints";
+@use "../breakpoints";
 
 .gallery {
   display: grid;
@@ -9,7 +9,7 @@
   max-width: 1140px;
   margin: 0 auto;
   padding-bottom: var(--space-1);
-  @include respond-above(tablet) {
+  @include breakpoints.respond-above(tablet) {
     grid-template-columns: repeat(2, 1fr);
   }
   .cover {

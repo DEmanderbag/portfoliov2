@@ -1,4 +1,4 @@
-@import "../../styles/breakpoints";
+@use "../../styles/breakpoints";
 
 .wrapper {
   padding-top: var(--space-1);
@@ -11,7 +11,7 @@
   .intro {
     margin-bottom: var(--size-5);
   }
-  @include respond-above(max) {
+  @include breakpoints.respond-above(max) {
     padding-left: 0;
     padding-right: 0;
   }
