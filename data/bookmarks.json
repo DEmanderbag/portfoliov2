@@ -365,6 +365,14 @@
       "websiteShort": "fullstackopen.com",
       "tag": "Article",
       "tagColor": "var(--article)"
+    },
+    {
+      "title": "Work Responsibly",
+      "subtitle": "— A collection of resources for a healthy and balanced approach to work. Browse topics and resources",
+      "website": "https://www.workresponsibly.org/",
+      "websiteShort": "workresponsibly.org",
+      "tag": "Article",
+      "tagColor": "var(--article)"
     }
   ]
 ]
