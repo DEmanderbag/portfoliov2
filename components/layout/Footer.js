@@ -8,7 +8,6 @@ const Footer = () => {
       <div className={styles.wrapper}>
         <div className={styles.contact}>
           <p>{data[0].name}</p>
-          <a href={`mailto:${data[0].email}`}>{data[0].email}</a>
         </div>
         <section className={styles.links}>
           <div className={styles.separator}></div>
